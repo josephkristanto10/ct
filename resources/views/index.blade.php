@@ -211,7 +211,7 @@ color: #ff5A00;
 						</div>
 						<div class="swiper-slide-bg" style="background-image: url('{{ asset('css/images/slider/Image_Slider.jpg') }}'); background-position: center;background-size:cover;"></div>
 					</div>
-					<div class="swiper-slide">
+					{{-- <div class="swiper-slide">
 						<div class="container">
 							<div class="slider-caption slider-caption-right">
 								<div>
@@ -235,7 +235,7 @@ color: #ff5A00;
 							</div>
 						</div>
 						<div class="swiper-slide-bg" style="background-image: url('{{ asset('css/images/slider/1.jpg') }}'); background-position: center bottom;"></div>
-					</div>
+					</div> --}}
 				</div>
 				<div class="slider-arrow-left"><i class="icon-angle-left"></i></div>
 				<div class="slider-arrow-right"><i class="icon-angle-right"></i></div>
