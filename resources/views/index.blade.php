@@ -221,10 +221,7 @@ color: #ff5A00;
 							</div>
 						</div>
 						<div class="video-wrap">
-							{{-- <video id="slide-video" poster="{{ asset('css/images/videos/1.jpg') }}" preload="auto" loop autoplay muted> --}}
-								{{-- <source src='{{ asset('css/images/videos/1.webm') }}' type='video/webm' /> --}}
-								{{-- <source src='{{ asset('css/images/videos/1.mp4') }}' type='video/mp4' /> --}}
-							{{-- </video> --}}
+						
 							<div class="video-overlay" style="background-color: rgba(0,0,0,0.1);"></div>
 						</div>
 					</div>
