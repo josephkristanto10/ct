@@ -253,12 +253,11 @@ figure.snip1139 .author h5 span {
 						
 							<ul class="menu-container" style = "padding-top:15px;">
 							
-								<li class="menu-item current"><a class="menu-link" href="demo-construction.html"><div>Home</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-construction-services.html"><div>Our Services</div></a>
+								<li class="menu-item current"><a class="menu-link" href="{{url('/')}}"><div>Home</div></a></li>
+								<li class="menu-item"><a class="menu-link" ><div>Our Services</div></a>
 									<ul class="sub-menu-container">
-										<li class="menu-item"><a class="menu-link" href="#"><div>Forklift</div></a></li>
-										<li class="menu-item"><a class="menu-link" href="#"><div>Tranportation</div></a></li>
-										<li class="menu-item"><a class="menu-link" href="#"><div>Heavy Equipment</div></a></li>
+										<li class="menu-item"><a class="menu-link" href="{{url('/service')}}"><div>Forklift</div></a></li>
+										<li class="menu-item"><a class="menu-link" ><div>Coming Soon</div></a></li>
 									</ul>
 								</li>
 								<li class="menu-item"><a class="menu-link" href="demo-construction-about-us.html"><div>About Us</div></a></li>
@@ -708,7 +707,7 @@ figure.snip1139 .author h5 span {
 
 				<a href="portfolio.html" class="button button-3d border-bottom-0 button-full center text-right bottommargin-lg font-weight-light font-primary" style="font-size: 26px;">
 					<div class="container clearfix">
-						Would you like to Build your Dream Home with Us? <strong>Enquire Here</strong> <i class="icon-angle-right" style="top:3px;"></i>
+						Mau lihat produk yang lain ? <strong>Klik Disini</strong> <i class="icon-angle-right" style="top:3px;"></i>
 					</div>
 				</a>
 
@@ -1085,7 +1084,7 @@ figure.snip1139 .author h5 span {
 
 					<div class="row justify-content-between col-mb-30">
 						<div class="col-12 col-md-auto text-center text-md-left">
-							Copyrights &copy; 2020 All Rights Reserved by Canvas Inc.<br>
+							Copyrights &copy; 2023 PT. Aneka Mesin Prima<br>
 							<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
 						</div>
 
