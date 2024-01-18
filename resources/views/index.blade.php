@@ -229,7 +229,7 @@ figure.snip1139 .author h5 span {
 			<div id="header-wrap" >
 				
 				<span style = "float:left;position: relative;left:50px;"><img src = "{{ asset('css/images/logo_amp.png') }}" style = "width:100px; height:100px;"/> <span style = "font-weight:600;color:#4A4A4A;font-size:20px;">PT. Aneka Mesin Prima</span></span>
-				<span style = "float:right;position: relative;right:50px;"><a href = "https://wa.me/6281258020841"><button id = "beliforklift" class = "btn btn-success" style = "box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;border-radius:25px;border:0px;background-color: #ff5A00 ; font-family: Open Sans,system-ui; font-weight:600; letter-spacing:1px ;color:white;margin-top:30px;font-size:15px;"> <i class="bi bi-cart" style = "color:black !important;"></i>Sewa / Beli Forklift Sekarang</button></a></span>
+				<span style = "float:right;position: relative;right:50px;"><a href = "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20"><button id = "beliforklift" class = "btn btn-success" style = "box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;border-radius:25px;border:0px;background-color: #ff5A00 ; font-family: Open Sans,system-ui; font-weight:600; letter-spacing:1px ;color:white;margin-top:30px;font-size:15px;"> <i class="bi bi-cart" style = "color:black !important;"></i>Sewa / Beli Forklift Sekarang</button></a></span>
 
 				<div class="container">
 					<div class="header-row justify-content-between flex-row-reverse flex-lg-row justify-content-lg-center">
@@ -342,7 +342,7 @@ figure.snip1139 .author h5 span {
 								<span>Kami menjanjikan forklift berkualitas di Kota Surabaya</span>
 							</div>
 							<div class="col-12 col-lg-auto mt-4 mt-lg-0">
-								<a href="https://wa.me/6281258020841" class="button button-large button-circle button-black m-0" style = "background-color:#ff5A00;">Hubungi Kami</a>
+								<a href="https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20" class="button button-large button-circle button-black m-0" style = "background-color:#ff5A00;">Hubungi Kami</a>
 							</div>
 						</div>
 					</div>
