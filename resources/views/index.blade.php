@@ -78,6 +78,93 @@ color: #ff5A00;
   -webkit-text-stroke-color: white;
 /* border:1px solid #ff5A00; */
 }
+
+
+/* Icon set - http://ionicons.com/ */
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+figure.snip1139 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 220px;
+  max-width: 310px;
+  width: 100%;
+  color: #333;
+  text-align: left;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+figure.snip1139 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+}
+figure.snip1139 img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+figure.snip1139 blockquote {
+  position: relative;
+  background-color: #ffffff;
+  padding: 25px 50px 25px 50px;
+  font-size: 0.8em;
+  font-weight: 500;
+  text-align: left;
+  margin: 0;
+  line-height: 1.6em;
+  font-style: italic;
+}
+figure.snip1139 blockquote:before,
+figure.snip1139 blockquote:after {
+  font-family: 'FontAwesome';
+  content: "\201C";
+  position: absolute;
+  font-size: 50px;
+  opacity: 0.3;
+  font-style: normal;
+}
+figure.snip1139 blockquote:before {
+  top: 25px;
+  left: 20px;
+}
+figure.snip1139 blockquote:after {
+  content: "\201D";
+  right: 20px;
+  bottom: 0;
+}
+figure.snip1139 .arrow {
+  top: 100%;
+  width: 0;
+  height: 0;
+  border-left: 0 solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 25px solid #ffffff;
+  margin: 0;
+  position: absolute;
+}
+figure.snip1139 .author {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 5px 25px;
+  color: #000000;
+  background-color: #ffffff;
+  margin: 0;
+  text-transform: uppercase;
+}
+figure.snip1139 .author h5 {
+  opacity: 0.8;
+  margin: 0;
+  font-weight: 800;
+}
+figure.snip1139 .author h5 span {
+  font-weight: 400;
+  text-transform: none;
+  padding-left: 5px;
+}
 	</style>
 	    {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> --}}
@@ -142,7 +229,7 @@ color: #ff5A00;
 			<div id="header-wrap" >
 				
 				<span style = "float:left;position: relative;left:50px;"><img src = "{{ asset('css/images/logo_amp.png') }}" style = "width:100px; height:100px;"/> <span style = "font-weight:600;color:#4A4A4A;font-size:20px;">PT. Aneka Mesin Prima</span></span>
-				<span style = "float:right;position: relative;right:50px;"><button id = "beliforklift" class = "btn btn-success" style = "box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;border-radius:25px;border:0px;background-color: #ff5A00 ; font-family: Open Sans,system-ui; font-weight:600; letter-spacing:1px ;color:white;margin-top:30px;font-size:15px;"> <i class="bi bi-cart" style = "color:black !important;"></i>Sewa / Beli Forklift Sekarang</button></span>
+				<span style = "float:right;position: relative;right:50px;"><a href = "https://wa.me/6281258020841"><button id = "beliforklift" class = "btn btn-success" style = "box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;border-radius:25px;border:0px;background-color: #ff5A00 ; font-family: Open Sans,system-ui; font-weight:600; letter-spacing:1px ;color:white;margin-top:30px;font-size:15px;"> <i class="bi bi-cart" style = "color:black !important;"></i>Sewa / Beli Forklift Sekarang</button></a></span>
 
 				<div class="container">
 					<div class="header-row justify-content-between flex-row-reverse flex-lg-row justify-content-lg-center">
@@ -256,7 +343,7 @@ color: #ff5A00;
 								<span>Kami menjanjikan forklift berkualitas di Kota Surabaya</span>
 							</div>
 							<div class="col-12 col-lg-auto mt-4 mt-lg-0">
-								<a href="#" class="button button-large button-circle button-black m-0" style = "background-color:#ff5A00;">Hubungi Kami</a>
+								<a href="https://wa.me/6281258020841" class="button button-large button-circle button-black m-0" style = "background-color:#ff5A00;">Hubungi Kami</a>
 							</div>
 						</div>
 					</div>
@@ -321,10 +408,14 @@ color: #ff5A00;
 				</div>
 
 				<div class="section parallax dark" style="background-image: url('{{ asset('css/images/slider/1.jpg') }}'); padding: 120px 0; "   data-bottom-top="background-position:0px 300px;" data-top-bottom="background-position:0px -300px;">
-
-					<div class="fslider testimonial testimonial-full"  data-arrows="false" style="z-index: 2;">
-						<div class="flexslider">
-							<div class="slider-wrap">
+			
+					<div class="fslider testimonial testimonial-full"   data-arrows="false" style="z-index: 2;" style = "text-align:center;">
+						<h3 style = "text-align:center;font-size:40px;margin-bottom:40px;color:#ffffff;">Testimoni Klien Kami</h3>
+						<div class="flexslider" style = "  display: flex;
+						justify-content: center;
+						align-items: center;
+						flex-flow: wrap;">
+							{{-- <div class="slider-wrap">
 								<div class="slide">
 									<div class="testi-image">
 										<a href="#"><img src="{{ asset('css/images/testimonials/3.jpg') }}" alt="Customer Testimonails"></a>
@@ -361,7 +452,25 @@ color: #ff5A00;
 										</div>
 									</div>
 								</div>
-							</div>
+							</div> --}}
+							<figure class="snip1139" >
+								<blockquote style = "text-align:justify;"><b style = "font-size:17px;">PT. Hailiang Nova Material </b> <br><br> Wah keren sih untuk pelayanan ini <b>PT. Aneka Mesin Prima</b>, Mesin nya juga bagus bagus, kedepannya aku mau sewa ditempat ini lagi.
+								  <div class="arrow"></div>
+								</blockquote>
+								<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample3.jpg" alt="sample3"/>
+								<div class="author">
+								</div>
+							  </figure>
+							  <figure class="snip1139 hover">
+								<blockquote style = "text-align:justify;"><b style = "font-size:17px;text-align:left !important;">Usaha Christoper Construction </b> <br><br>Beli Forklift ditempat <b>PT. Aneka Mesin Prima</b>  tidak mengecewakan dan kualitasnya <b>Terbaik</b>, totalitas dari pelayanan tempat ini keren banget.
+									<div class="arrow"></div>
+								</blockquote>
+								<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample47.jpg" alt="sample47"/>
+								<div class="author">
+							
+								</div>
+							  </figure>
+						
 						</div>
 					</div>
 
@@ -371,10 +480,10 @@ color: #ff5A00;
 
 				</div>
 
-				<div class="container">
+				{{-- <div class="container" >
 
-					<div class="row align-items-stretch col-mb-50">
-						<div class="col-lg-4 col-md-6">
+					<div class="row align-items-stretch col-mb-50" >
+						<div class="col-lg-4 col-md-4">
 							<div class="feature-box fbox-plain">
 								<div class="fbox-icon">
 									<a href="#"><img src="{{ asset('css/images/icons/building.png') }}" alt="Concrete Developments"></a>
@@ -385,7 +494,7 @@ color: #ff5A00;
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-6">
+						<div class="col-lg-4 col-md-4">
 							<div class="feature-box fbox-plain">
 								<div class="fbox-icon">
 									<a href="#"><img src="{{ asset('css/images/icons/bank.png') }}" alt="Finance Assistance"></a>
@@ -396,7 +505,7 @@ color: #ff5A00;
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-6">
+						<div class="col-lg-4 col-md-4">
 							<div class="feature-box fbox-plain">
 								<div class="fbox-icon">
 									<a href="#"><img src="{{ asset('css/images/icons/drawer.png') }}" alt="Interiorly Designed"></a>
@@ -442,7 +551,7 @@ color: #ff5A00;
 						</div>
 					</div>
 
-				</div>
+				</div> --}}
 
 				<div class="section mb-0">
 					<h3 style = "text-align:center;font-size:40px;margin-bottom:40px;color:#4A4A4A;">Beberapa Produk Kami</h3>
