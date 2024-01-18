@@ -27,6 +27,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 	<link rel="stylesheet" href="{{ asset('css') }}/colors.php?color=F18052" type="text/css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
 	<!-- Document Title
 	============================================= -->
@@ -174,6 +175,9 @@ a:is(:hover, :focus) figcaption {
 		transform: scale(1.2);
 	}
 }
+li::before{
+	content:"" !important;
+}
 	</style>
 	    {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> --}}
@@ -238,7 +242,7 @@ a:is(:hover, :focus) figcaption {
 			<div id="header-wrap" >
 				
 				<span style = "float:left;position: relative;left:50px;"><img src = "{{ asset('css/images/logo_amp.png') }}" style = "width:100px; height:100px;"/> <span style = "font-weight:600;color:#4A4A4A;font-size:20px;">PT. Aneka Mesin Prima</span></span>
-				<span style = "float:right;position: relative;right:50px;"><a href = "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20"><button id = "beliforklift" class = "btn btn-success" style = "box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;border-radius:25px;border:0px;background-color: #ff5A00 ; font-family: Open Sans,system-ui; font-weight:600; letter-spacing:1px ;color:white;margin-top:30px;font-size:15px;"> <i class="bi bi-cart" style = "color:black !important;"></i>Sewa / Beli Forklift Sekarang</button></a></span>
+				<span style = "float:right;position: relative;right:50px;"><a href = "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20"><button id = "beliforklift" class = "btn btn-success" style = "box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;border-radius:25px;border:0px;background-color: #ff5A00 ; font-family: Open Sans,system-ui; font-weight:600; letter-spacing:1px ;color:white;margin-top:30px;font-size:15px;"><i class="bi bi-cart" style = "color:white !important;"></i> &nbsp;Sewa / Beli Forklift Sekarang</button></a></span>
 
 				<div class="container">
 					<div class="header-row justify-content-between flex-row-reverse flex-lg-row justify-content-lg-center">
@@ -262,8 +266,8 @@ a:is(:hover, :focus) figcaption {
 						
 							<ul class="menu-container" style = "padding-top:15px;">
 							
-								<li class="menu-item current"><a class="menu-link" href="{{url('/')}}"><div>Home</div></a></li>
-								<li class="menu-item"><a class="menu-link" ><div>Our Services</div></a>
+								<li class="menu-item "><a class="menu-link" href="{{url('/')}}"><div>Home</div></a></li>
+								<li class="menu-item current"><a class="menu-link" ><div>Our Services</div></a>
 									<ul class="sub-menu-container">
 										<li class="menu-item"><a class="menu-link" href="{{url('/service')}}"><div>Forklift</div></a></li>
 										<li class="menu-item"><a class="menu-link" ><div>Coming Soon</div></a></li>
@@ -431,52 +435,23 @@ a:is(:hover, :focus) figcaption {
 						<div class="col-lg-9">
 							<div class="widget clearfix">
 
-								<img src="{{ asset('css/images/footer-widget-logo.png') }}" alt="Image" class="alignleft" style="margin-top: 8px; padding-right: 18px; border-right: 1px solid #4A4A4A;">
+								{{-- <img src="{{ asset('css/images/footer-widget-logo.png') }}" alt="Image" class="alignleft" style="margin-top: 8px; padding-right: 18px; border-right: 1px solid #4A4A4A;">
 
-								<p>We believe in <strong>Simple</strong>, <strong>Creative</strong> &amp; <strong>Flexible</strong> Design Standards with a Retina &amp; Responsive Approach. Browse the amazing Features this template offers.</p>
+								<p>We believe in <strong>Simple</strong>, <strong>Creative</strong> &amp; <strong>Flexible</strong> Design Standards with a Retina &amp; Responsive Approach. Browse the amazing Features this template offers.</p> --}}
 
-								<div class="line" style="margin: 30px 0;"></div>
+								{{-- <div class="line" style="margin: 30px 0;"></div> --}}
 
 								<div class="row col-mb-30">
 									<div class="col-lg-3 col-6 widget_links">
+										<h3>Marketing Office</h3>
 										<ul>
-											<li><a href="#">Home</a></li>
-											<li><a href="#">About</a></li>
-											<li><a href="#">FAQs</a></li>
-											<li><a href="#">Support</a></li>
-											<li><a href="#">Contact</a></li>
+											<li><i class="bi bi-telephone-inbound-fill"></i><a href="https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20">+62 812-580-208-41</a></li>
+											<li><i class="bi bi-pin-fill"></i><a href="https://www.google.com/maps/place/Jl.+Kedinding+Lor+No.88-90,+Tanah+Kali+Kedinding,+Kec.+Kenjeran,+Surabaya,+Jawa+Timur+60129/@-7.2213183,112.7700947,18z/data=!3m1!4b1!4m6!3m5!1s0x2dd7f853b7af2615:0xd57269bd0950701!8m2!3d-7.2216509!4d112.7712856!16s%2Fg%2F11cpf7n8lp?entry=ttu">Jln. Kedinding Lor no 88-90, Surabaya, Jawa Timur</a></li>
+									
 										</ul>
 									</div>
 
-									<div class="col-lg-3 col-6 widget_links">
-										<ul>
-											<li><a href="#">Shop</a></li>
-											<li><a href="#">Portfolio</a></li>
-											<li><a href="#">Blog</a></li>
-											<li><a href="#">Events</a></li>
-											<li><a href="#">Forums</a></li>
-										</ul>
-									</div>
-
-									<div class="col-lg-3 col-6 widget_links">
-										<ul>
-											<li><a href="#">Corporate</a></li>
-											<li><a href="#">Agency</a></li>
-											<li><a href="#">eCommerce</a></li>
-											<li><a href="#">Personal</a></li>
-											<li><a href="#">One Page</a></li>
-										</ul>
-									</div>
-
-									<div class="col-lg-3 col-6 widget_links">
-										<ul>
-											<li><a href="#">Restaurant</a></li>
-											<li><a href="#">Wedding</a></li>
-											<li><a href="#">App Showcase</a></li>
-											<li><a href="#">Magazine</a></li>
-											<li><a href="#">Landing Page</a></li>
-										</ul>
-									</div>
+							
 								</div>
 
 							</div>
@@ -488,17 +463,17 @@ a:is(:hover, :focus) figcaption {
 								<div class="row col-mb-30">
 									<div class="col-12">
 										<div class="footer-big-contacts">
-											<span>Call Us:</span>
-											(1) 22 55412474
+											<h3>Temukan Kami Di:</h3>
+											<img src = "{{asset('css/images/logo_ig.png')}}" style = "width:50px;height:50px;" /><span style = "font-weight:bold;margin-left:10px;">&nbsp;Instagram</span>
 										</div>
 									</div>
 
-									<div class="col-12">
+									{{-- <div class="col-12">
 										<div class="footer-big-contacts">
 											<span>Send an Email:</span>
 											info@canvas.com
 										</div>
-									</div>
+									</div> --}}
 								</div>
 
 							</div>
@@ -506,7 +481,7 @@ a:is(:hover, :focus) figcaption {
 							<div class="widget subscribe-widget clearfix">
 
 								<div class="row col-mb-30">
-									<div class="col-12 col-sm-6 clearfix">
+									{{-- <div class="col-12 col-sm-6 clearfix">
 										<a href="#" class="social-icon si-dark si-colored si-facebook mb-0" style="margin-right: 10px;">
 											<i class="icon-facebook"></i>
 											<i class="icon-facebook"></i>
@@ -519,7 +494,7 @@ a:is(:hover, :focus) figcaption {
 											<i class="icon-rss"></i>
 										</a>
 										<a href="#"><small style="display: block; margin-top: 3px;"><strong>Subscribe</strong><br>to RSS Feeds</small></a>
-									</div>
+									</div> --}}
 								</div>
 
 							</div>
@@ -537,12 +512,12 @@ a:is(:hover, :focus) figcaption {
 					<div class="row justify-content-between col-mb-30">
 						<div class="col-12 col-md-auto text-center text-md-left">
 							Copyrights &copy; 2023 PT. Aneka Mesin Prima<br>
-							<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
+							{{-- <div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div> --}}
 						</div>
 
 						<div class="col-12 col-md-auto text-center text-md-right">
 							<div class="copyrights-menu copyright-links clearfix">
-								<a href="#">Home</a>/<a href="#">About Us</a>/<a href="#">Team</a>/<a href="#">Clients</a>/<a href="#">FAQs</a>/<a href="#">Contact</a>
+								<a href="{{url('/')}}">Home</a>/<a href="{{url('/service')}}">Services</a>/<a href="#">About Us</a>/<a href="#">Contact Us</a>
 							</div>
 						</div>
 					</div>
