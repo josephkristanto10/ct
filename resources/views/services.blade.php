@@ -304,8 +304,8 @@ a:is(:hover, :focus) figcaption {
 				<a href="">
 					<figure>
 						
-						<img src='https://images.unsplash.com/photo-1631451095765-2c91616fc9e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA0OTI3Nw&ixlib=rb-1.2.1&q=80&w=400' alt='Volcano and lava field against a stormy sky'>
-						<figcaption>Mountains and volcanos</figcaption>
+						<img src="{{asset('css/images/services/Services_1.jpg')}}" alt='Volcano and lava field against a stormy sky'>
+						<a href = "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%201,5%20Ton"><figcaption><img src = "{{asset('css/images/logo_wa.png')}}" style = "width:50px;height:50px;" /> <span style = "background-color:#02b326;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin</span> </figcaption></a>
 					</figure>
 				</a>
 			</li>
@@ -313,18 +313,18 @@ a:is(:hover, :focus) figcaption {
 				<span style = "position: absolute;z-index:100;background-color:#ff5A00;border-radius:40px;color:white;padding:5px;margin-top:10px;margin-left:10px;font-weight:600;">2 Ton</span>
 				<a href="">
 					<figure>
-						<img src='https://images.unsplash.com/photo-1633621533308-8760aefb5521?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjAyMQ&ixlib=rb-1.2.1&q=80&w=400' alt='Guy on a bike ok a wooden bridge with a forest backdrop'>
-						<figcaption>Adventure getaways</figcaption>
-					</figure>
+						<img src="{{asset('css/images/services/Services_2.jpg')}}" alt='Volcano and lava field against a stormy sky'>
+						<a href = "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%202%20Ton"><figcaption><img src = "{{asset('css/images/logo_wa.png')}}" style = "width:50px;height:50px;" > <span style = "background-color:#02b326;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin</span> </figcaption> </a>
+						</figure>
 				</a>
 			</li>
 			<li>
 				<span style = "position: absolute;z-index:100;background-color:#ff5A00;border-radius:40px;color:white;padding:5px;margin-top:10px;margin-left:10px;font-weight:600;">2,5 Ton</span>
 				<a href="">
 					<figure>
-						<img src='https://images.unsplash.com/photo-1633635146842-12d386e64058?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Person standing alone in a misty forest'>
-						<figcaption>Forest escapes</figcaption>
-					</figure>
+						<img src="{{asset('css/images/services/Services_3.jpg')}}" alt='Volcano and lava field against a stormy sky'>
+						<a href= "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%202,5%20Ton"><figcaption><img src = "{{asset('css/images/logo_wa.png')}}" style = "width:50px;height:50px;" > <span style = "background-color:#02b326;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin</span> </figcaption> </a>
+						</figure>
 				</a>
 			</li>
 			<li>
@@ -332,9 +332,9 @@ a:is(:hover, :focus) figcaption {
 
 				<a href="">
 					<figure>
-						<img src='https://images.unsplash.com/photo-1568444438385-ece31a33ce78?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Person hiking on a trail through mountains while taking a photo with phone'>
-						<figcaption>Hiking trails</figcaption>
-					</figure>
+						<img src="{{asset('css/images/services/Services_4.jpg')}}" alt='Volcano and lava field against a stormy sky'>
+						<a href= "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%203%20Ton"><figcaption><img src = "{{asset('css/images/logo_wa.png')}}" style = "width:50px;height:50px;" > <span style = "background-color:#02b326;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin</span> </figcaption> </a>
+						</figure>
 				</a>
 			</li>
 			<li>
@@ -342,9 +342,9 @@ a:is(:hover, :focus) figcaption {
 
 				<a href="">
 					<figure>
-						<img src='https://images.unsplash.com/photo-1633515257379-5fda985bd57a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Street scene with person walking and others on motorbikes, all wearing masks'>
-						<figcaption>Street scenes</figcaption>
-					</figure>
+						<img src="{{asset('css/images/services/Services_5.jpg')}}" alt='Volcano and lava field against a stormy sky'>
+						<a href= "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%203,5%20Ton">	<figcaption><img src = "{{asset('css/images/logo_wa.png')}}" style = "width:50px;height:50px;" > <span style = "background-color:#02b326;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin</span> </figcaption> </a>
+						</figure>
 				</a>
 			</li>
 			<li>
@@ -352,9 +352,9 @@ a:is(:hover, :focus) figcaption {
 
 				<a href="">
 					<figure>
-						<img src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
-						<figcaption>Trending</figcaption>
-					</figure>
+						<img src="{{asset('css/images/services/Services_6.jpg')}}" alt='Volcano and lava field against a stormy sky'>
+						<a href= "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%207%20Ton">	<figcaption><img src = "{{asset('css/images/logo_wa.png')}}" style = "width:50px;height:50px;" > <span style = "background-color:#02b326;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin</span> </figcaption> </a>
+						</figure>
 				</a>
 			</li>
 			<li>
@@ -364,9 +364,9 @@ a:is(:hover, :focus) figcaption {
 
 				<a href="">
 					<figure>
-						<img src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
-						<figcaption>Trending</figcaption>
-					</figure>
+						<img src="{{asset('css/images/services/Services_7.jpg')}}" alt='Volcano and lava field against a stormy sky'>
+						<a href= "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%204%20Ton"><figcaption><img src = "{{asset('css/images/logo_wa.png')}}" style = "width:50px;height:50px;" > <span style = "background-color:#02b326;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin</span> </figcaption> </a>
+						</figure>
 				</a>
 			</li>
 			<li>
@@ -376,9 +376,9 @@ a:is(:hover, :focus) figcaption {
 
 				<a href="">
 					<figure>
-						<img src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
-						<figcaption>Trending</figcaption>
-					</figure>
+						<img src="{{asset('css/images/services/Services_8.jpg')}}" alt='Volcano and lava field against a stormy sky'>
+						<a href= "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%204,5%20Ton">	<figcaption><img src = "{{asset('css/images/logo_wa.png')}}" style = "width:50px;height:50px;" > <span style = "background-color:#02b326;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin</span> </figcaption> </a>
+						</figure>
 				</a>
 			</li>
 			<li>
@@ -388,9 +388,9 @@ a:is(:hover, :focus) figcaption {
 
 				<a href="">
 					<figure>
-						<img src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
-						<figcaption>Trending</figcaption>
-					</figure>
+						<img src="{{asset('css/images/services/Services_9.jpg')}}" alt='Volcano and lava field against a stormy sky'>
+						<a href= "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%205%20Ton">	<figcaption><img src = "{{asset('css/images/logo_wa.png')}}" style = "width:50px;height:50px;" > <span style = "background-color:#02b326;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin</span> </figcaption> </a>
+						</figure>
 				</a>
 			</li>
 			<li>
@@ -400,9 +400,9 @@ a:is(:hover, :focus) figcaption {
 
 				<a href="">
 					<figure>
-						<img src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
-						<figcaption>Trending</figcaption>
-					</figure>
+						<img src="{{asset('css/images/services/Services_10.jpg')}}" alt='Volcano and lava field against a stormy sky'>
+						<a href= "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%206%20Ton">	<figcaption><img src = "{{asset('css/images/logo_wa.png')}}" style = "width:50px;height:50px;" > <span style = "background-color:#02b326;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin</span> </figcaption> </a>
+						</figure>
 				</a>
 			</li>
 			<li>
@@ -410,9 +410,9 @@ a:is(:hover, :focus) figcaption {
 				<span style = "position: absolute;z-index:100;background-color:#2d302e;border-radius:40px;color:white;padding:5px;margin-top:50px;margin-left:10px;font-weight:600;">Coming Soon</span>
 				<a href="">
 					<figure>
-						<img src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
-						<figcaption>Trending</figcaption>
-					</figure>
+						<img src="{{asset('css/images/services/Services_11.jpg')}}" alt='Volcano and lava field against a stormy sky'>
+						<a href= "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%2010%20Ton"><figcaption><img src = "{{asset('css/images/logo_wa.png')}}" style = "width:50px;height:50px;" > <span style = "background-color:#02b326;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin</span> </figcaption> </a>
+						</figure>
 				</a>
 			</li>
 		</ul>
