@@ -669,7 +669,7 @@ li::before{
 
 				</div> --}}
 
-				<div class="section mb-0">
+				<div class="section mb-0" style = "padding-bottom:20px !important;">
 					<h3 style = "text-align:center;font-size:40px;color:#4A4A4A;">Beberapa Jenis Forklift Kami</h3>
 				
 				</div>
