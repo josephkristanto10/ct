@@ -30,15 +30,8 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 	<!-- Document Title
 	============================================= -->
-	{{-- <title>Forklift Surabaya - PT. Aneka Mesin Prima</title> --}}
-	<style>
-		/* #wrapper, #header-wrap{
-			background-color:#2A2B2E;
-		}
-		#header-wrap{
-			border: 0px solid bla
-		} */
 
+	<style>
 
 		.headers {
   position: fixed;
@@ -268,11 +261,11 @@ li::before{
 								<li class="menu-item"><a class="menu-link" ><div>Our Services</div></a>
 									<ul class="sub-menu-container">
 										<li class="menu-item"><a class="menu-link" href="{{url('/service')}}"><div>Forklift</div></a></li>
-										<li class="menu-item"><a class="menu-link" ><div>Coming Soon</div></a></li>
+										<li class="menu-item"><a class="menu-link" href=""><div>Coming Soon</div></a></li>
 									</ul>
 								</li>
-								<li class="menu-item"><a class="menu-link" href="demo-construction-about-us.html"><div>About Us</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-construction-projects.html"><div>Contact Us</div></a>
+								<li class="menu-item"><a class="menu-link" href=""><div>About Us</div></a></li>
+								<li class="menu-item"><a class="menu-link" href=""><div>Contact Us</div></a>
 								</li>
 							</ul>
 
@@ -1167,7 +1160,7 @@ li::before{
 
 	<!-- Go To Top
 	============================================= -->
-	<div id="gotoTop" class="icon-angle-up"></div>
+	<div id="gotoTop" class="icon-angle-up"> <i class="bi bi-arrow-up-short" style = "font-size:20px;"></i></div>
 
 	<!-- JavaScripts
 	============================================= -->

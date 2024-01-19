@@ -542,7 +542,7 @@ li::before{
 
 	<!-- Go To Top
 	============================================= -->
-	<div id="gotoTop" class="icon-angle-up"></div>
+	<div id="gotoTop" class="icon-angle-up"> <i class="bi bi-arrow-up-short" style = "font-size:20px;"></i></div>
 
 	<!-- JavaScripts
 	============================================= -->
