@@ -30,7 +30,7 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 	<!-- Document Title
 	============================================= -->
-	<title>Forklift Surabaya - PT. Aneka Mesin Prima</title>
+	{{-- <title>Forklift Surabaya - PT. Aneka Mesin Prima</title> --}}
 	<style>
 		/* #wrapper, #header-wrap{
 			background-color:#2A2B2E;
@@ -172,11 +172,11 @@ li::before{
 	    {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> --}}
 	
-
+	<title>Jual Forklift Termurah - PT Aneka Mesin Prima</title>
 	<meta name="description" content="Forklift termurah hanya di PT. Aneka Mesin Prima" />
 	<meta name=”robots” content="index, follow">
-	<meta name="keywords" content="Forklift berkualitas, Forklift Surabaya, PT. Aneka Mesin Prima, aneka mesin prima">
-
+	<meta name="keywords" content="Forklift berkualitas,Forklift Surabaya,PT. Aneka Mesin Prima,aneka mesin prima">
+	<meta data-rh="true" property="og:title" content="Beli & Sewa Forklift Murah | PT. Aneka Mesin Prima">
 
 </head>
 
