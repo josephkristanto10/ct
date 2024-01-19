@@ -179,27 +179,175 @@ li::before{
 	content:"" !important;
 }
 
-/* Small devices such as large phones (640px and up) */
-@media only screen and (min-width: 40em) {
-	#myBar{
+/* for desktops */
+@media only screen 
+  and (min-width: 1367px) { 
+	
+}
+
+/* for laptops */
+@media only screen 
+  and (min-width: 991px) 
+  and (max-width: 1366px) { 
+	#logo_responsive span{
+		font-size:15px !important;
+	}
+} 
+
+/* for large tablets */
+@media only screen 
+  and (min-width: 769px) 
+  and (max-width: 990px) { 
+	.headers{
+		display: none !important;
+	}
+	#logo_responsive{
+		left:10px !important;
+	}
+	#logo_responsive span{
+		font-size:15px !important;
+	}
+	#primary-menu-trigger{
+		position:relative; right:20px;top:20px;
+		
+	}
+	#headermenu{
+		width: 100% !important;
+	}
+	#button_responsive{
 		display:none !important;
 	}
-}
+	.menu-container{
+		padding-top:0px !important;
+	}
+	#button_beliforklift_responsive{
+		display:block !important;
+		padding:0px !important;
+	}
+	#slider{
+		min-height: 35vh !important;
+	}
+	#button_hubungi_kami_responsive{
+		text-align: center;
+	}
+	#section_hubungi_kami{
+		text-align: justify;		
+	}
+	#section_hubungi_kami h3{
+		margin-bottom: 20px;		
+	}
+	#penyangga_tanya_admin{
+		display: block !important;
+		clear:both;
+		margin-top:30px;
+	
+	}
+	.headermenu{
+		width: 100% !important;
+		height:100%;
+	}
+} 
 
-/* Medium devices such as tablets (768px and up) */
-@media only screen and (min-width: 48em) {
+/* for smaller tablets */
+@media only screen 
+  and (min-width: 481px) 
+  and (max-width: 768px) { 
+	.headers{
+		display: none !important;
+	}
+	#logo_responsive{
+		left:10px !important;
+	}
+	#logo_responsive span{
+		font-size:15px !important;
+	}
+	#primary-menu-trigger{
+		position:relative; right:20px;top:20px;
+		
+	}
+	#headermenu{
+		width: 100% !important;
+		height:100%;
+	}
+	#button_responsive{
+		display:none !important;
+	}
+	.menu-container{
+		padding-top:0px !important;
+	}
+	#button_beliforklift_responsive{
+		display:block !important;
+		padding:0px !important;
+	}
+	#slider{
+		min-height: 35vh !important;
+	}
+	#button_hubungi_kami_responsive{
+		text-align: center;
+	}
+	#section_hubungi_kami{
+		text-align: justify;		
+	}
+	#section_hubungi_kami h3{
+		margin-bottom: 20px;		
+	}
+	#penyangga_tanya_admin{
+		display: block !important;
+		clear:both;
+		margin-top:30px;
+	
+	}
+	
+} 
 
-}
-
-/* Large devices such as laptops (1024px and up) */
-@media only screen and (min-width: 64em) {
-
-}
-
-/* Largest devices such as desktops (1280px and up) */
-@media only screen and (min-width: 80em) {
-
-}
+/* for cellphones */
+@media only screen 
+  and (max-width: 480px) { 
+    .headers{
+		display: none !important;
+	}
+	#logo_responsive{
+		left:10px !important;
+	}
+	#logo_responsive span{
+		font-size:15px !important;
+	}
+	#primary-menu-trigger{
+		position:relative; right:20px;top:20px;
+		
+	}
+	#headermenu{
+		width: 100% !important;
+	}
+	#button_responsive{
+		display:none !important;
+	}
+	.menu-container{
+		padding-top:0px !important;
+	}
+	#button_beliforklift_responsive{
+		display:block !important;
+		padding:0px !important;
+	}
+	#slider{
+		min-height: 35vh !important;
+	}
+	#button_hubungi_kami_responsive{
+		text-align: center;
+	}
+	#section_hubungi_kami{
+		text-align: justify;		
+	}
+	#section_hubungi_kami h3{
+		margin-bottom: 20px;		
+	}
+	#penyangga_tanya_admin{
+		display: block !important;
+		clear:both;
+		margin-top:30px;
+	
+	}
+} 
 
 
 	</style>
@@ -225,69 +373,24 @@ li::before{
 
 		<!-- Header
 		============================================= -->
-		<header id="header" class="header-size-sm" data-sticky-shrink="false">
+		<header id="header" class="header-size-sm" data-sticky-shrink="false" style = "height:100px;">
 			<div class="container">
 				<div class="header-row">
-
-					<!-- Logo
-					============================================= -->
-					{{-- <div id="logo" class="ml-auto ml-lg-0 mr-lg-auto">
-						<a href="index.html" class="standard-logo"><img src="{{ asset('css/images/logo.png') }}" alt="Canvas Logo"></a>
-						<a href="index.html" class="retina-logo"><img src="{{ asset('css/images/logo@2x.png') }}" alt="Canvas Logo"></a>
-					</div><!-- #logo end --> --}}
-
-					{{-- <div class="header-misc d-none d-lg-flex">
-
-						<ul class="header-extras">
-							<li>
-								<i class="i-plain icon-call m-0"></i>
-								<div class="he-text">
-									Call Us
-									<span>(1) 22 54215821</span>
-								</div>
-							</li>
-							<li>
-								<i class="i-plain icon-line2-envelope m-0"></i>
-								<div class="he-text">
-									Email Us
-									<span>info@canvas.com</span>
-								</div>
-							</li>
-							<li>
-								<i class="i-plain icon-line-clock m-0"></i>
-								<div class="he-text">
-									We'are Open
-									<span>Mon - Sat, 10AM to 6PM</span>
-								</div>
-							</li>
-						</ul>
-
-					</div> --}}
-
 				</div>
 			</div>
 
 			<div id="header-wrap" >
 				
-				<span style = "float:left;position: relative;left:50px;"><a href = "{{url('/')}}"><img src = "{{ asset('css/images/logo_amp.png') }}" style = "width:100px; height:100px;"/> </a><span style = "font-weight:600;color:#4A4A4A;font-size:20px;"><a href = "{{url('/')}}" style = "color:#4A4A4A !important;">PT. Aneka Mesin Prima</a></span></span>
-				<span style = "float:right;position: relative;right:50px;"><a href = "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20"><button id = "beliforklift" class = "btn btn-success" style = "box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;border-radius:25px;border:0px;background-color: #ff5A00 ; font-family: Open Sans,system-ui; font-weight:600; letter-spacing:1px ;color:white;margin-top:30px;font-size:15px;"><i class="bi bi-cart" style = "color:white !important;"></i> &nbsp;Sewa / Beli Forklift Sekarang</button></a></span>
-
+				<span style = "float:left;position: relative;left:50px;" id = "logo_responsive"><a href = "{{url('/')}}"><img src = "{{ asset('css/images/logo_amp.png') }}" style = "width:100px; height:100px;"/> </a><span style = "font-weight:600;color:#4A4A4A;font-size:20px;"><a href = "{{url('/')}}" style = "color:#4A4A4A !important;">PT. Aneka Mesin Prima</a></span></span>
+				<span style = "float:right;position: relative;right:50px;" id = "button_responsive"><a href = "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20"><button id = "beliforklift" class = "btn btn-success" style = "box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;border-radius:25px;border:0px;background-color: #ff5A00 ; font-family: Open Sans,system-ui; font-weight:600; letter-spacing:1px ;color:white;margin-top:30px;font-size:15px;"><i class="bi bi-cart" style = "color:white !important;"></i> &nbsp;Sewa / Beli Forklift Sekarang</button></a></span>
+				<div id="primary-menu-trigger" style = "float:right;">
+					<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
+				</div>
 				<div class="container">
-					<div class="header-row justify-content-between flex-row-reverse flex-lg-row justify-content-lg-center">
+					<div class="header-row justify-content-between flex-row-reverse flex-lg-row justify-content-lg-center" id = "headermenu" style = "z-index:150;background-color:white;">
 
-						<div class="header-misc">
+					
 
-							<!-- Top Search
-							============================================= -->
-							<div id="top-search" class="header-misc-icon">
-								<a href="#" id="top-search-trigger"><i class="icon-line-search"></i><i class="icon-line-cross"></i></a>
-							</div><!-- #top-search end -->
-
-						</div>
-
-						<div id="primary-menu-trigger">
-							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
-						</div>
 						<!-- Primary Navigation
 						============================================= -->
 						<nav class="primary-menu with-arrows">
@@ -295,13 +398,15 @@ li::before{
 							<ul class="menu-container" style = "padding-top:15px;">
 							
 								<li class="menu-item "><a class="menu-link" href="{{url('/')}}"><div>Home</div></a></li>
-								<li class="menu-item current"><a class="menu-link" ><div>Our Services</div></a>
+								<li class="menu-item current"><a class="menu-link" href="{{url('/service')}}" ><div>Our Services</div></a>
 									<ul class="sub-menu-container">
 										<li class="menu-item"><a class="menu-link" href="{{url('/service')}}"><div>Forklift</div></a></li>
 										<li class="menu-item"><a class="menu-link" ><div>Coming Soon</div></a></li>
 									</ul>
 								</li>
 								<li class="menu-item"><a class="menu-link" href="demo-construction-projects.html"><div>Contact Us</div></a>
+								</li>
+								<li class="menu-item"><a class="menu-link" href="" style = "display:none;padding:10px !important;" id = "button_beliforklift_responsive"><div style = "padding:0px !important;"><button id = "beliforklift_responsive" class = "btn btn-success" style = "box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;border-radius:25px;border:0px;background-color: #ff5A00 ; font-family: Open Sans,system-ui; font-weight:600; letter-spacing:1px ;color:white;font-size:15px;"> <i class="bi bi-cart" style = "color:white !important;"></i> &nbsp;Sewa / Beli Forklift Sekarang</button></div></a>
 								</li>
 							</ul>
 
@@ -327,8 +432,9 @@ li::before{
 		<!-- Content
 		============================================= -->
 		<br>
-		<h3 style = "font-size:40px;text-align:center;">Produk Kami</h3>
+
 		<div class="container clearfix mt-2" style = "width:100%;">
+		<h3 style = "font-size:40px;text-align:center;">Produk Kami</h3>
 		<ul style = "margin:auto;width:100%;">
 			<li>
 				<span style = "position: absolute;z-index:100;background-color:#ff5A00;border-radius:40px;color:white;padding:5px;margin-top:10px;margin-left:10px;font-weight:600;">1,5 Ton</span>
@@ -388,68 +494,11 @@ li::before{
 						</figure>
 				</a>
 			</li>
-			{{-- <li>
-				<span style = "position: absolute;z-index:100;background-color:#ff5A00;border-radius:40px;color:white;padding:5px;margin-top:10px;margin-left:10px;font-weight:600;">4 Ton</span>
-				<span style = "position: absolute;z-index:100;background-color:#2d302e;border-radius:40px;color:white;padding:5px;margin-top:50px;margin-left:10px;font-weight:600;">Coming Soon</span>
-
-
-				<a href="">
-					<figure>
-						<img src="{{asset('css/images/services/Services_7.jpg')}}" alt='Volcano and lava field against a stormy sky'>
-						<a href= "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%204%20Ton"><figcaption><img src = "{{asset('css/images/logo_wa.png')}}" style = "width:50px;height:50px;" > <span style = "background-color:#02b326;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin</span> </figcaption> </a>
-						</figure>
-				</a>
-			</li>
-			<li>
-				<span style = "position: absolute;z-index:100;background-color:#ff5A00;border-radius:40px;color:white;padding:5px;margin-top:10px;margin-left:10px;font-weight:600;">4,5 Ton</span>
-				<span style = "position: absolute;z-index:100;background-color:#2d302e;border-radius:40px;color:white;padding:5px;margin-top:50px;margin-left:10px;font-weight:600;">Coming Soon</span>
-
-
-				<a href="">
-					<figure>
-						<img src="{{asset('css/images/services/Services_8.jpg')}}" alt='Volcano and lava field against a stormy sky'>
-						<a href= "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%204,5%20Ton">	<figcaption><img src = "{{asset('css/images/logo_wa.png')}}" style = "width:50px;height:50px;" > <span style = "background-color:#02b326;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin</span> </figcaption> </a>
-						</figure>
-				</a>
-			</li>
-			<li>
-				<span style = "position: absolute;z-index:100;background-color:#ff5A00;border-radius:40px;color:white;padding:5px;margin-top:10px;margin-left:10px;font-weight:600;">5 Ton</span>
-				<span style = "position: absolute;z-index:100;background-color:#2d302e;border-radius:40px;color:white;padding:5px;margin-top:50px;margin-left:10px;font-weight:600;">Coming Soon</span>
-
-
-				<a href="">
-					<figure>
-						<img src="{{asset('css/images/services/Services_9.jpg')}}" alt='Volcano and lava field against a stormy sky'>
-						<a href= "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%205%20Ton">	<figcaption><img src = "{{asset('css/images/logo_wa.png')}}" style = "width:50px;height:50px;" > <span style = "background-color:#02b326;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin</span> </figcaption> </a>
-						</figure>
-				</a>
-			</li>
-			<li>
-				<span style = "position: absolute;z-index:100;background-color:#ff5A00;border-radius:40px;color:white;padding:5px;margin-top:10px;margin-left:10px;font-weight:600;">6 Ton</span>
-				<span style = "position: absolute;z-index:100;background-color:#2d302e;border-radius:40px;color:white;padding:5px;margin-top:50px;margin-left:10px;font-weight:600;">Coming Soon</span>
-
-
-				<a href="">
-					<figure>
-						<img src="{{asset('css/images/services/Services_10.jpg')}}" alt='Volcano and lava field against a stormy sky'>
-						<a href= "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%206%20Ton">	<figcaption><img src = "{{asset('css/images/logo_wa.png')}}" style = "width:50px;height:50px;" > <span style = "background-color:#02b326;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin</span> </figcaption> </a>
-						</figure>
-				</a>
-			</li>
-			<li>
-				<span style = "position: absolute;z-index:100;background-color:#ff5A00;border-radius:40px;color:white;padding:5px;margin-top:10px;margin-left:10px;font-weight:600;">10 Ton</span>
-				<span style = "position: absolute;z-index:100;background-color:#2d302e;border-radius:40px;color:white;padding:5px;margin-top:50px;margin-left:10px;font-weight:600;">Coming Soon</span>
-				<a href="">
-					<figure>
-						<img src="{{asset('css/images/services/Services_11.jpg')}}" alt='Volcano and lava field against a stormy sky'>
-						<a href= "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%2010%20Ton"><figcaption><img src = "{{asset('css/images/logo_wa.png')}}" style = "width:50px;height:50px;" > <span style = "background-color:#02b326;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin</span> </figcaption> </a>
-						</figure>
-				</a>
-			</li> --}}
+		
 			
 		</ul>
 		<br><br>
-			<div style = "text-align:center;padding:20px;background-color:#ff5A00;color:white;border-radius:10px;width:100%;">Masih banyak forklift dengan kapasitas selain diatas. yuk hubungi Admin kami. 			<a  href= "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%20lainnya%20selain%20di%20Website" style = ""> <span style = "border:1px solid white; background-color:transparent;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin &nbsp;<img src = "{{asset('css/images/logo_wa.png')}}" style = "width:28px;height:27px;" ></span> </a></div>
+			<div style = "text-align:center;padding:20px;background-color:#ff5A00;color:white;border-radius:10px;width:100%;">Masih banyak forklift dengan kapasitas selain diatas. yuk hubungi Admin kami. 			<a  href= "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%20lainnya%20selain%20di%20Website" style = ""> <div id = "penyangga_tanya_admin" style = "display:none;"></div> <span style = "border:1px solid white; background-color:transparent;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin &nbsp;<img src = "{{asset('css/images/logo_wa.png')}}" style = "width:28px;height:27px;" ></span> </a></div>
 
 
 		</div>
