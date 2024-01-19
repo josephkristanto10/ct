@@ -174,6 +174,7 @@ li::before{
 	<Meta content="Forklift Surabaya" name="keyword"/>
 	<Meta content="aneka mesin prima" name="keyword"/>
 	<Meta content="PT. Aneka Mesin Prima" name="keyword"/>
+	<Meta content="Forklift berkualitas" name="keyword"/>
 	<Meta content="Forklift termurah hanya di PT. Aneka Mesin Prima" name="description"/>
 </head>
 
