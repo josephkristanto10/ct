@@ -641,10 +641,11 @@ li::before{
 								</div>
 							</div>
 						</div>
-						<div class = "row">
-							Forklift yang kami miliki terdiri dari Forklift Diesel dan Elektrik, Forklift-forklift tersebut memiliki berbagai macam kapasitas mulai dari 1,5 Ton sampai dengan 7 Ton.
-						</div>
+						
 				  </div>
+				<div class = "container clearfix mt-2" style = "text-align:center !important;width:100% !important;" >
+					<p style = "text-align:center;width:100%;font-size:19px;">Forklift yang kami miliki terdiri dari Forklift Diesel dan Elektrik, Forklift-forklift tersebut memiliki berbagai macam kapasitas mulai dari 1,5 Ton sampai dengan 7 Ton.</p>
+				</div>
 				<div id="portfolio" class="portfolio row grid-container no-gutters">
 
 					
