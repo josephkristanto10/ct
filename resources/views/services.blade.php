@@ -83,7 +83,7 @@ color: #ff5A00;
 
 
 
-ul img {
+#harus_preview_image ul img {
 	width: 100%;
 	display: block;
 	aspect-ratio: 1 / 1;
@@ -91,7 +91,7 @@ ul img {
 	transition: transform 1000ms;
 }
 
-ul {
+#harus_preview_image ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -102,13 +102,13 @@ ul {
 	width: 70rem;
 }
 
-figure {
+#harus_preview_image figure {
 	margin: 0;
 	position: relative;
 	overflow: hidden;
 }
 
-figure::after {
+#harus_preview_image figure::after {
 	content: '';
 	position: absolute;
 	top: 50%;
@@ -122,7 +122,7 @@ figure::after {
 	transition: opacity 300ms;
 }
 
-figcaption {
+#harus_preview_image figcaption {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -140,38 +140,38 @@ figcaption {
 	transition: opacity 600ms, transform 600ms;
 }
 
-ul a:is(:hover, :focus) figure::after {
+#harus_preview_image ul a:is(:hover, :focus) figure::after {
 	opacity: 1;
 }
 
-ul a:is(:hover, :focus) figcaption {
+#harus_preview_image ul a:is(:hover, :focus) figcaption {
 	opacity: 1;
 	transition: opacity 600ms;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-	figcaption {
+	#harus_preview_image figcaption {
 		transform: translate3d(0, 2rem, 0);
 	}
 	
-	figure::after {
+	#harus_preview_image figure::after {
 		border-radius: 50%;
 		opacity: 1;
 		transform: scale(0);
 		transition: transform 900ms;
 	}
 	
-	ul a:is(:hover, :focus) figure::after {
+	#harus_preview_image ul a:is(:hover, :focus) figure::after {
 		transform: scale(2.5);
 	}
 
-	ul a:is(:hover, :focus) figcaption {
+	#harus_preview_image ul a:is(:hover, :focus) figcaption {
 		opacity: 1;
 		transform: translate3d(0, 0, 0);
 		transition: opacity 600ms 400ms, transform 600ms 400ms;
 	}
 
-	ul a:is(:hover, :focus) img {
+	#harus_preview_image ul a:is(:hover, :focus) img {
 		transform: scale(1.2);
 	}
 }
@@ -242,10 +242,7 @@ li::before{
 		margin-top:30px;
 	
 	}
-	.headermenu{
-		width: 100% !important;
-		height:100%;
-	}
+	
 } 
 
 /* for smaller tablets */
@@ -433,7 +430,7 @@ li::before{
 		============================================= -->
 		<br>
 
-		<div class="container clearfix mt-2" style = "width:100%;">
+		<div class="container clearfix mt-2" style = "width:100%;" id = "harus_preview_image">
 		<h3 style = "font-size:40px;text-align:center;">Produk Kami</h3>
 		<ul style = "margin:auto;width:100%;">
 			<li>
@@ -498,7 +495,7 @@ li::before{
 			
 		</ul>
 		<br><br>
-			<div style = "text-align:center;padding:20px;background-color:#ff5A00;color:white;border-radius:10px;width:100%;">Masih banyak forklift dengan kapasitas selain diatas. yuk hubungi Admin kami. 			<a  href= "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%20lainnya%20selain%20di%20Website" style = ""> <div id = "penyangga_tanya_admin" style = "display:none;"></div> <span style = "border:1px solid white; background-color:transparent;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin &nbsp;<img src = "{{asset('css/images/logo_wa.png')}}" style = "width:28px;height:27px;" ></span> </a></div>
+			<div style = "text-align:center;padding:20px;background-color:#ff5A00;color:white;border-radius:10px;width:100%;">Masih banyak forklift dengan kapasitas selain diatas. yuk hubungi Admin kami.<a  href= "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%20lainnya%20selain%20di%20Website" style = ""> <div id = "penyangga_tanya_admin" style = "display:none;"></div> <span style = "border:1px solid white; background-color:transparent;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin &nbsp;<img src = "{{asset('css/images/logo_wa.png')}}" style = "width:28px;height:27px;" ></span> </a></div>
 
 
 		</div>
