@@ -307,8 +307,8 @@ li::before{
 		============================================= -->
 		<br>
 		<h3 style = "font-size:40px;text-align:center;">Produk Kami</h3>
-		
-		<ul style = "margin:auto;">
+		<div class="container clearfix mt-2" style = "width:100%;">
+		<ul style = "margin:auto;width:100%;">
 			<li>
 				<span style = "position: absolute;z-index:100;background-color:#ff5A00;border-radius:40px;color:white;padding:5px;margin-top:10px;margin-left:10px;font-weight:600;">1,5 Ton</span>
 				<a href="">
@@ -425,13 +425,14 @@ li::before{
 						</figure>
 				</a>
 			</li> --}}
+			
 		</ul>
-
-		<div class="container clearfix mt-2">
-			<div style = "padding:20px;background-color:#ff5A00;color:white;border-radius:10px;">Masih banyak forklift dengan kapasitas selain diatas. yuk hubungi Admin kami. 			<a  href= "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%20lainnya%20selain%20di%20Website" style = "float:right;"> <span style = "border:1px solid white; background-color:transparent;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin &nbsp;<img src = "{{asset('css/images/logo_wa.png')}}" style = "width:28px;height:27px;" ></span> </a></div>
+		<br><br>
+			<div style = "text-align:center;padding:20px;background-color:#ff5A00;color:white;border-radius:10px;width:100%;">Masih banyak forklift dengan kapasitas selain diatas. yuk hubungi Admin kami. 			<a  href= "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%20lainnya%20selain%20di%20Website" style = ""> <span style = "border:1px solid white; background-color:transparent;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin &nbsp;<img src = "{{asset('css/images/logo_wa.png')}}" style = "width:28px;height:27px;" ></span> </a></div>
 
 
 		</div>
+		
 		<br><br>
 
 		<!-- Footer

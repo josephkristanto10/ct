@@ -794,7 +794,9 @@ li::before{
 
 				<a href="{{url('/service')}}" class="button button-3d border-bottom-0 button-full center text-right  font-weight-light font-primary mt-4" style="font-size: 26px;">
 					<div class="container clearfix">
-						Mau lihat produk yang lain ? <strong>Klik Disini</strong> <i class="icon-angle-right" style="top:3px;"></i>
+						{{-- Mau Lihat Forklift Yang Lain ? <strong>Klik Disini</strong> <i class="icon-angle-right" style="top:3px;"></i> --}}
+						<strong>Klik Disini</strong> Untuk Lihat Gambar Dan Video Forklift Kami  <i class="icon-angle-right" style="top:3px;"></i>
+						
 					</div>
 				</a>
 
