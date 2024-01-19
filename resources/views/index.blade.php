@@ -349,7 +349,7 @@ li::before{
 						<div class="row align-items-center">
 							<div class="col-12 col-lg">
 								<h3 style="letter-spacing: 2px;">Sewa atau Beli Forklift Berkualitas Di Tempat Kami</h3>
-								<span>Kami menjanjikan forklift berkualitas di Kota Surabaya</span>
+								<span>Kami menjanjikan forklift berkualitas dan siap kirim ke seluruh <b>wilayah Indonesia</b></span>
 							</div>
 							<div class="col-12 col-lg-auto mt-4 mt-lg-0">
 								<a href="https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20" class="button button-large button-circle button-black m-0" style = "background-color:#ff5A00;">Hubungi Kami</a>
@@ -471,7 +471,7 @@ li::before{
 								</div>
 							  </figure>
 							  <figure class="snip1139 hover">
-								<blockquote style = "text-align:justify;"><b style = "font-size:17px;text-align:left !important;">Usaha Christoper Construction </b> <br><br>Beli Forklift ditempat <b>PT. Aneka Mesin Prima</b>  tidak mengecewakan dan kualitasnya <b>Terbaik</b>, totalitas dari pelayanan tempat ini keren banget.
+								<blockquote style = "text-align:justify;"><b style = "font-size:17px;text-align:left !important;">PT. Griya Maxindo </b> <br><br>Beli Forklift ditempat <b>PT. Aneka Mesin Prima</b>  tidak mengecewakan dan kualitasnya <b>Terbaik</b>, totalitas dari pelayanan tempat ini keren banget.
 									<div class="arrow"></div>
 								</blockquote>
 								<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample47.jpg" alt="sample47"/>
@@ -566,10 +566,96 @@ li::before{
 					<h3 style = "text-align:center;font-size:40px;margin-bottom:40px;color:#4A4A4A;">Beberapa Produk Kami</h3>
 				
 				</div>
+				<div class="container clearfix">
+						<div id="oc-posts" style = "display:block !important;" class="owl-carousel posts-carousel carousel-widget posts-md" data-margin="20" data-nav="true" data-pagi="true" data-items-xs="1" data-items-xl="2">
 
+							<div class="oc-item">
+								<div class="entry">
+									<div class="entry-image">
+										<a data-lightbox="image"><img src="{{ asset('css/images/produk/1.jpg') }}" alt="Standard Post with Image"></a>
+									</div>
+									{{-- <div class="entry-title title-sm nott">
+										<h3><a href="#">Upcoming Projects in Australia</a></h3>
+									</div>
+									<div class="entry-meta">
+										<ul>
+											<li>10th Feb 2021</li>
+											<li><a href="#comments">13 Comments</a></li>
+										</ul>
+									</div>
+									<div class="entry-content">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in.</p>
+									</div> --}}
+								</div>
+							</div>
+							
+							<div class="oc-item">
+								<div class="entry">
+									<div class="entry-image">
+										<a data-lightbox="image"><img src="{{ asset('css/images/produk/2.jpg') }}" alt="Standard Post with Image"></a>
+									</div>
+									{{-- <div class="entry-title title-sm nott">
+										<h3><a href="#">Upcoming Projects in Australia</a></h3>
+									</div>
+									<div class="entry-meta">
+										<ul>
+											<li>10th Feb 2021</li>
+											<li><a href="#comments">13 Comments</a></li>
+										</ul>
+									</div>
+									<div class="entry-content">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in.</p>
+									</div> --}}
+								</div>
+							</div>
+							
+							<div class="oc-item">
+								<div class="entry">
+									<div class="entry-image">
+										<a data-lightbox="image"><img src="{{ asset('css/images/produk/3.jpg') }}" alt="Standard Post with Image"></a>
+									</div>
+									{{-- <div class="entry-title title-sm nott">
+										<h3><a href="#">Upcoming Projects in Australia</a></h3>
+									</div>
+									<div class="entry-meta">
+										<ul>
+											<li>10th Feb 2021</li>
+											<li><a href="#comments">13 Comments</a></li>
+										</ul>
+									</div>
+									<div class="entry-content">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in.</p>
+									</div> --}}
+								</div>
+							</div>
+							<div class="oc-item">
+								<div class="entry">
+									<div class="entry-image">
+										<a data-lightbox="image"><img src="{{ asset('css/images/produk/4.jpg') }}" alt="Standard Post with Image"></a>
+									</div>
+									{{-- <div class="entry-title title-sm nott">
+										<h3><a href="#">Upcoming Projects in Australia</a></h3>
+									</div>
+									<div class="entry-meta">
+										<ul>
+											<li>10th Feb 2021</li>
+											<li><a href="#comments">13 Comments</a></li>
+										</ul>
+									</div>
+									<div class="entry-content">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in.</p>
+									</div> --}}
+								</div>
+							</div>
+						</div>
+						<div class = "row">
+							Forklift yang kami miliki terdiri dari Forklift Diesel dan Elektrik, Forklift-forklift tersebut memiliki berbagai macam kapasitas mulai dari 1,5 Ton sampai dengan 7 Ton.
+						</div>
+				  </div>
 				<div id="portfolio" class="portfolio row grid-container no-gutters">
 
-					<article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-media pf-icons">
+					
+					{{-- <article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-media pf-icons">
 						<div class="grid-inner">
 							<div class="portfolio-image">
 								<img src="{{ asset('css/images/produk/1.jpg') }}" alt="The Atmosphere">
@@ -636,7 +722,7 @@ li::before{
 								<h3>Forklift 7 Ton</h3>
 							</div>
 						</div>
-					</article>
+					</article> --}}
 
 					{{-- <article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-uielements pf-media">
 						<div class="grid-inner">
@@ -1106,4 +1192,6 @@ function myFunction() {
   var scrolled = ((winScroll / height) * 100) + 10;
   document.getElementById("myBar").style.width = scrolled + "%";
 } 
+
+
 </script>
