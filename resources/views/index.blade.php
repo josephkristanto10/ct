@@ -670,7 +670,7 @@ li::before{
 				</div> --}}
 
 				<div class="section mb-0">
-					<h3 style = "text-align:center;font-size:40px;margin-bottom:40px;color:#4A4A4A;">Beberapa Produk Kami</h3>
+					<h3 style = "text-align:center;font-size:40px;color:#4A4A4A;">Beberapa Produk Kami</h3>
 				
 				</div>
 				<div class="container clearfix">
