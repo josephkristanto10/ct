@@ -370,7 +370,7 @@ li::before{
 							<ul class="menu-container" style = "padding-top:15px;">
 							
 								<li class="menu-item current"><a class="menu-link" href="{{url('/')}}"><div>Home</div></a></li>
-								<li class="menu-item"><a class="menu-link" ><div>Our Services</div></a>
+								<li class="menu-item"><a class="menu-link" href="{{url('/service')}}"><div>Our Services</div></a>
 									<ul class="sub-menu-container">
 										<li class="menu-item"><a class="menu-link" href="{{url('/service')}}"><div>Forklift</div></a></li>
 										<li class="menu-item"><a class="menu-link" href=""><div>Coming Soon</div></a></li>
