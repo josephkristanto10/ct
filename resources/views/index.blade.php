@@ -264,7 +264,6 @@ li::before{
 										<li class="menu-item"><a class="menu-link" href=""><div>Coming Soon</div></a></li>
 									</ul>
 								</li>
-								<li class="menu-item"><a class="menu-link" href=""><div>About Us</div></a></li>
 								<li class="menu-item"><a class="menu-link" href=""><div>Contact Us</div></a>
 								</li>
 							</ul>
@@ -1149,7 +1148,7 @@ li::before{
 
 						<div class="col-12 col-md-auto text-center text-md-right">
 							<div class="copyrights-menu copyright-links clearfix">
-								<a href="{{url('/')}}">Home</a>/<a href="{{url('/service')}}">Services</a>/<a href="#">About Us</a>/<a href="#">Contact Us</a>
+								<a href="{{url('/')}}">Home</a>/<a href="{{url('/service')}}">Services</a>/<a href="#">Contact Us</a>
 							</div>
 						</div>
 					</div>
