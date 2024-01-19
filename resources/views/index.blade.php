@@ -171,11 +171,13 @@ li::before{
 	</style>
 	    {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> --}}
-	<Meta content="Forklift Surabaya" name="keyword"/>
-	<Meta content="aneka mesin prima" name="keyword"/>
-	<Meta content="PT. Aneka Mesin Prima" name="keyword"/>
-	<Meta content="Forklift berkualitas" name="keyword"/>
-	<Meta content="Forklift termurah hanya di PT. Aneka Mesin Prima" name="description"/>
+	
+
+	<meta name="description" content="Forklift termurah hanya di PT. Aneka Mesin Prima" />
+	<meta name=”robots” content="index, follow">
+	<meta name="keywords" content="Forklift berkualitas, Forklift Surabaya, PT. Aneka Mesin Prima, aneka mesin prima">
+
+
 </head>
 
 <body class="stretched">
