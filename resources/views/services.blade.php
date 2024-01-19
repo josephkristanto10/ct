@@ -178,9 +178,15 @@ a:is(:hover, :focus) figcaption {
 li::before{
 	content:"" !important;
 }
+
+
 	</style>
-	    {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> --}}
+	   <link rel="icon" type="image/x-icon" href="{{ asset('css/images/logo_amp.png') }}">
+		<title>Jual Forklift Termurah - PT Aneka Mesin Prima</title>
+		<meta name="description" content="Forklift termurah hanya di PT. Aneka Mesin Prima" />
+		<meta name=”robots” content="index, follow">
+		<meta name="keywords" content="Forklift berkualitas,Forklift Surabaya,PT. Aneka Mesin Prima,aneka mesin prima,Forklift 3 Ton, Forklift 1.5 Ton, Forklift 2 Ton, Forkflift 2.5 Ton, Forklift 7 Ton, Forklift 10 Ton">
+		<meta data-rh="true" property="og:title" content="Beli & Sewa Forklift Murah | PT. Aneka Mesin Prima">
 </head>
 
 <body class="stretched">
@@ -361,7 +367,7 @@ li::before{
 						</figure>
 				</a>
 			</li>
-			<li>
+			{{-- <li>
 				<span style = "position: absolute;z-index:100;background-color:#ff5A00;border-radius:40px;color:white;padding:5px;margin-top:10px;margin-left:10px;font-weight:600;">4 Ton</span>
 				<span style = "position: absolute;z-index:100;background-color:#2d302e;border-radius:40px;color:white;padding:5px;margin-top:50px;margin-left:10px;font-weight:600;">Coming Soon</span>
 
@@ -418,8 +424,14 @@ li::before{
 						<a href= "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%2010%20Ton"><figcaption><img src = "{{asset('css/images/logo_wa.png')}}" style = "width:50px;height:50px;" > <span style = "background-color:#02b326;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin</span> </figcaption> </a>
 						</figure>
 				</a>
-			</li>
+			</li> --}}
 		</ul>
+
+		<div class="container clearfix mt-2">
+			<div style = "padding:20px;background-color:#ff5A00;color:white;border-radius:10px;">Masih banyak forklift dengan kapasitas selain diatas. yuk hubungi Admin kami. 			<a  href= "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%20lainnya%20selain%20di%20Website" style = "float:right;"> <span style = "border:1px solid white; background-color:transparent;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin &nbsp;<img src = "{{asset('css/images/logo_wa.png')}}" style = "width:28px;height:27px;" ></span> </a></div>
+
+
+		</div>
 		<br><br>
 
 		<!-- Footer

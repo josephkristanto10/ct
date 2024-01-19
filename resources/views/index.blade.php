@@ -172,10 +172,11 @@ li::before{
 	    {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> --}}
 	
+	<link rel="icon" type="image/x-icon" href="{{ asset('css/images/logo_amp.png') }}">
 	<title>Jual Forklift Termurah - PT Aneka Mesin Prima</title>
 	<meta name="description" content="Forklift termurah hanya di PT. Aneka Mesin Prima" />
 	<meta name=”robots” content="index, follow">
-	<meta name="keywords" content="Forklift berkualitas,Forklift Surabaya,PT. Aneka Mesin Prima,aneka mesin prima">
+	<meta name="keywords" content="Forklift berkualitas,Forklift Surabaya,PT. Aneka Mesin Prima,aneka mesin prima,Forklift 3 Ton, Forklift 1.5 Ton, Forklift 2 Ton, Forkflift 2.5 Ton, Forklift 7 Ton, Forklift 10 Ton">
 	<meta data-rh="true" property="og:title" content="Beli & Sewa Forklift Murah | PT. Aneka Mesin Prima">
 
 </head>
