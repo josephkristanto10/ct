@@ -40,6 +40,7 @@
   z-index: 50;
   width: 100%;
   background-color: #f1f1f1;
+  /* display: none; */
 }
 
 /* The progress container (grey background) */
@@ -161,6 +162,153 @@ figure.snip1139 .author h5 span {
 li::before{
 	content:"" !important;
 }
+
+/* for desktops */
+@media only screen 
+  and (min-width: 1367px) { 
+	
+}
+
+/* for laptops */
+@media only screen 
+  and (min-width: 991px) 
+  and (max-width: 1366px) { 
+	#logo_responsive span{
+		font-size:15px !important;
+	}
+} 
+
+/* for large tablets */
+@media only screen 
+  and (min-width: 769px) 
+  and (max-width: 990px) { 
+	.headers{
+		display: none !important;
+	}
+	#logo_responsive{
+		left:10px !important;
+	}
+	#logo_responsive span{
+		font-size:15px !important;
+	}
+	#primary-menu-trigger{
+		position:relative; right:20px;top:20px;
+		
+	}
+	#headermenu{
+		width: 100% !important;
+	}
+	#button_responsive{
+		display:none !important;
+	}
+	.menu-container{
+		padding-top:0px !important;
+	}
+	#button_beliforklift_responsive{
+		display:block !important;
+		padding:0px !important;
+	}
+	#slider{
+		min-height: 35vh !important;
+	}
+	#button_hubungi_kami_responsive{
+		text-align: center;
+	}
+	#section_hubungi_kami{
+		text-align: justify;		
+	}
+	#section_hubungi_kami h3{
+		margin-bottom: 20px;		
+	}
+} 
+
+/* for smaller tablets */
+@media only screen 
+  and (min-width: 481px) 
+  and (max-width: 768px) { 
+	.headers{
+		display: none !important;
+	}
+	#logo_responsive{
+		left:10px !important;
+	}
+	#logo_responsive span{
+		font-size:15px !important;
+	}
+	#primary-menu-trigger{
+		position:relative; right:20px;top:20px;
+		
+	}
+	#headermenu{
+		width: 100% !important;
+	}
+	#button_responsive{
+		display:none !important;
+	}
+	.menu-container{
+		padding-top:0px !important;
+	}
+	#button_beliforklift_responsive{
+		display:block !important;
+		padding:0px !important;
+	}
+	#slider{
+		min-height: 35vh !important;
+	}
+	#button_hubungi_kami_responsive{
+		text-align: center;
+	}
+	#section_hubungi_kami{
+		text-align: justify;		
+	}
+	#section_hubungi_kami h3{
+		margin-bottom: 20px;		
+	}
+} 
+
+/* for cellphones */
+@media only screen 
+  and (max-width: 480px) { 
+    .headers{
+		display: none !important;
+	}
+	#logo_responsive{
+		left:10px !important;
+	}
+	#logo_responsive span{
+		font-size:15px !important;
+	}
+	#primary-menu-trigger{
+		position:relative; right:20px;top:20px;
+		
+	}
+	#headermenu{
+		width: 100% !important;
+	}
+	#button_responsive{
+		display:none !important;
+	}
+	.menu-container{
+		padding-top:0px !important;
+	}
+	#button_beliforklift_responsive{
+		display:block !important;
+		padding:0px !important;
+	}
+	#slider{
+		min-height: 35vh !important;
+	}
+	#button_hubungi_kami_responsive{
+		text-align: center;
+	}
+	#section_hubungi_kami{
+		text-align: justify;		
+	}
+	#section_hubungi_kami h3{
+		margin-bottom: 20px;		
+	}
+	
+} 
 	</style>
 	    {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> --}}
@@ -191,54 +339,20 @@ li::before{
 		<header id="header" class="header-size-sm" data-sticky-shrink="false">
 			<div class="container">
 				<div class="header-row">
-
-					<!-- Logo
-					============================================= -->
-					{{-- <div id="logo" class="ml-auto ml-lg-0 mr-lg-auto">
-						<a href="index.html" class="standard-logo"><img src="{{ asset('css/images/logo.png') }}" alt="Canvas Logo"></a>
-						<a href="index.html" class="retina-logo"><img src="{{ asset('css/images/logo@2x.png') }}" alt="Canvas Logo"></a>
-					</div><!-- #logo end --> --}}
-
-					{{-- <div class="header-misc d-none d-lg-flex">
-
-						<ul class="header-extras">
-							<li>
-								<i class="i-plain icon-call m-0"></i>
-								<div class="he-text">
-									Call Us
-									<span>(1) 22 54215821</span>
-								</div>
-							</li>
-							<li>
-								<i class="i-plain icon-line2-envelope m-0"></i>
-								<div class="he-text">
-									Email Us
-									<span>info@canvas.com</span>
-								</div>
-							</li>
-							<li>
-								<i class="i-plain icon-line-clock m-0"></i>
-								<div class="he-text">
-									We'are Open
-									<span>Mon - Sat, 10AM to 6PM</span>
-								</div>
-							</li>
-						</ul>
-
-					</div> --}}
-
 				</div>
 			</div>
 
 			<div id="header-wrap" >
 			
-				<span style = "float:left;position: relative;left:50px;"><a href = "{{url('/')}}"><img src = "{{ asset('css/images/logo_amp.png') }}" style = "width:100px; height:100px;"/> </a><span style = "font-weight:600;color:#4A4A4A;font-size:20px;"><a href = "{{url('/')}}" style = "color:#4A4A4A !important;">PT. Aneka Mesin Prima</a></span></span>
-				<span style = "float:right;position: relative;right:50px;"><a href = "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20"><button id = "beliforklift" class = "btn btn-success" style = "box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;border-radius:25px;border:0px;background-color: #ff5A00 ; font-family: Open Sans,system-ui; font-weight:600; letter-spacing:1px ;color:white;margin-top:30px;font-size:15px;"> <i class="bi bi-cart" style = "color:white !important;"></i> &nbsp;Sewa / Beli Forklift Sekarang</button></a></span>
-			
+				<span style = "float:left;position: relative;left:50px;" id = "logo_responsive"><a href = "{{url('/')}}"><img src = "{{ asset('css/images/logo_amp.png') }}" style = "width:100px; height:100px;"/> </a><span style = "font-weight:600;color:#4A4A4A;font-size:20px;"><a href = "{{url('/')}}" style = "color:#4A4A4A !important;">PT. Aneka Mesin Prima</a></span></span>
+				<span style = "float:right;position: relative;right:50px;" id = "button_responsive"><a href = "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20"><button id = "beliforklift" class = "btn btn-success" style = "box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;border-radius:25px;border:0px;background-color: #ff5A00 ; font-family: Open Sans,system-ui; font-weight:600; letter-spacing:1px ;color:white;margin-top:30px;font-size:15px;"> <i class="bi bi-cart" style = "color:white !important;"></i> &nbsp;Sewa / Beli Forklift Sekarang</button></a></span>
+				<div id="primary-menu-trigger" style = "float:right;">
+					<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
+				</div>
 				<div class="container">
-					<div class="header-row justify-content-between flex-row-reverse flex-lg-row justify-content-lg-center">
+					<div class="header-row justify-content-between flex-row-reverse flex-lg-row justify-content-lg-center" id = "headermenu">
 
-						<div class="header-misc">
+						{{-- <div class="header-misc">
 
 							<!-- Top Search
 							============================================= -->
@@ -246,11 +360,9 @@ li::before{
 								<a href="#" id="top-search-trigger"><i class="icon-line-search"></i><i class="icon-line-cross"></i></a>
 							</div><!-- #top-search end -->
 
-						</div>
+						</div> --}}
 
-						<div id="primary-menu-trigger">
-							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
-						</div>
+						
 						<!-- Primary Navigation
 						============================================= -->
 						<nav class="primary-menu with-arrows">
@@ -265,6 +377,8 @@ li::before{
 									</ul>
 								</li>
 								<li class="menu-item"><a class="menu-link" href=""><div>Contact Us</div></a>
+								</li>
+								<li class="menu-item"><a class="menu-link" href="" style = "display:none;padding:10px !important;" id = "button_beliforklift_responsive"><div style = "padding:0px !important;"><button id = "beliforklift_responsive" class = "btn btn-success" style = "box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;border-radius:25px;border:0px;background-color: #ff5A00 ; font-family: Open Sans,system-ui; font-weight:600; letter-spacing:1px ;color:white;font-size:15px;"> <i class="bi bi-cart" style = "color:white !important;"></i> &nbsp;Sewa / Beli Forklift Sekarang</button></div></a>
 								</li>
 							</ul>
 
@@ -339,13 +453,13 @@ li::before{
 
 				<div class="promo promo-light promo-full promo-uppercase p-5 bottommargin-lg header-stick">
 					<div class="container clearfix">
-						<div class="row align-items-center">
+						<div class="row align-items-center" id = "section_hubungi_kami">
 							<div class="col-12 col-lg">
 								<h3 style="letter-spacing: 2px;">Sewa atau Beli Forklift Berkualitas Di Tempat Kami</h3>
 								<span>Kami menjanjikan forklift berkualitas dan siap kirim ke seluruh <b>wilayah Indonesia</b></span>
 							</div>
-							<div class="col-12 col-lg-auto mt-4 mt-lg-0">
-								<a href="https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20" class="button button-large button-circle button-black m-0" style = "background-color:#ff5A00;">Hubungi Kami</a>
+							<div class="col-12 col-lg-auto mt-4 mt-lg-0" id = "button_hubungi_kami_responsive">
+								<a href="https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20"  class="button button-large button-circle button-black m-0" style = "background-color:#ff5A00;">Hubungi Kami</a>
 							</div>
 						</div>
 					</div>
@@ -355,7 +469,7 @@ li::before{
 					<div class="row justify-content-center col-mb-50">
 				
 						
-						<div class="col-sm-6 col-lg-12">
+						<div class="col-sm-12 col-lg-12">
 							<p style = "text-align:justify;">
 								<b style = "color:#4A4A4A;">PT. Aneka Mesin Prima</b> mulai beroperasi pada tahun 2023, perusahaan kami terletak di Jalan Kedinding Lor no 88-90, Surabaya, Jawa Timur. PT. Aneka Mesin Prima merupakan perusahaan yang bergerak di bidang sewa dan jual- beli Forklift. Forklift yang disediakan oleh PT. Aneka Mesin Prima terbilang cukup beragam, ada Forklift Diesel dan Forklift Elektrik dengan kapasitas Ton yang berbeda-beda. Selain itu, PT. Aneka Mesin Prima juga menyediakan jasa perbaikan Forklift milik konsumen yang ingin Forkliftnya diperbaiki.
 							</p>

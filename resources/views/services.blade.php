@@ -179,6 +179,28 @@ li::before{
 	content:"" !important;
 }
 
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 40em) {
+	#myBar{
+		display:none !important;
+	}
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 48em) {
+
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 64em) {
+
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 80em) {
+
+}
+
 
 	</style>
 	   <link rel="icon" type="image/x-icon" href="{{ asset('css/images/logo_amp.png') }}">
