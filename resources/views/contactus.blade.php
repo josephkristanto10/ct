@@ -429,28 +429,28 @@ li::before{
 
 		<div class="container clearfix mt-2" style = "width:100%;" id = "harus_preview_image">
 		<h3 style = "font-size:40px;text-align:center;">Hubungi Kami</h3>
-		<p>Butuh bantuan untuk mencari forklift berkualitas mulai dari kapasitas 1,5 ton sampai 11 ton? yuk langsung saja datangi offline store kami yang berletak di Kota Surabaya pada <b>jln Kedinding Lor no 88 - 90</b> Atau bisa menekan kotak google maps yang ada dibawah halaman. Selain itu, kamu juga bisa hubungi nomor whatsapp admin yang tertera. Terima Kasih.</p>
+		<p>Butuh bantuan untuk mencari forklift berkualitas mulai dari kapasitas 1,5 ton sampai 10 ton? yuk langsung saja datangi offline store kami yang berletak di Kota Surabaya pada <b>jln Kedinding Lor no 88 - 90</b> Atau bisa menekan kotak google maps yang ada dibawah halaman. Selain itu, kamu juga bisa hubungi nomor whatsapp admin yang tertera. Terima Kasih.</p>
 
 		<br>
 		<h3 style = "font-size:40px;text-align:center;">Jam Operasional Kami</h3>
 		<div class = "row mt-3" style = "text-align: center;">
-			<div class = "col-md-12"><i class="bi bi-check2" style = "color:green;font-size:20px;"></i>&nbsp;<b>Senin</b> : Buka (8 pagi - 5 Malam)
+			<div class = "col-md-12"><i class="bi bi-check2" style = "color:green;font-size:20px;"></i>&nbsp;<b>Senin</b> : Buka (8 pagi - 5 Sore)
 			</div>
 		</div>
 		<div class = "row mt-3" style = "text-align: center;">
-			<div class = "col-md-12"><i class="bi bi-check2" style = "color:green;font-size:20px;"></i>&nbsp;<b>Selasa</b> : Buka (8 pagi - 5 Malam)
+			<div class = "col-md-12"><i class="bi bi-check2" style = "color:green;font-size:20px;"></i>&nbsp;<b>Selasa</b> : Buka (8 pagi - 5 Sore)
 			</div>
 		</div>
 		<div class = "row mt-3" style = "text-align: center;">
-			<div class = "col-md-12"><i class="bi bi-check2" style = "color:green;font-size:20px;"></i>&nbsp;<b>Rabu</b> : Buka (8 pagi - 5 Malam)
+			<div class = "col-md-12"><i class="bi bi-check2" style = "color:green;font-size:20px;"></i>&nbsp;<b>Rabu</b> : Buka (8 pagi - 5 Sore)
 			</div>
 		</div>
 		<div class = "row mt-3" style = "text-align: center;">
-			<div class = "col-md-12"><i class="bi bi-check2" style = "color:green;font-size:20px;"></i>&nbsp;<b>Kamis</b> : Buka (8 pagi - 5 Malam)
+			<div class = "col-md-12"><i class="bi bi-check2" style = "color:green;font-size:20px;"></i>&nbsp;<b>Kamis</b> : Buka (8 pagi - 5 Sore)
 			</div>
 		</div>
 		<div class = "row mt-3" style = "text-align: center;">
-			<div class = "col-md-12"><i class="bi bi-check2" style = "color:green;font-size:20px;"></i>&nbsp;<b>Jumat</b> : Buka (8 pagi - 5 Malam)
+			<div class = "col-md-12"><i class="bi bi-check2" style = "color:green;font-size:20px;"></i>&nbsp;<b>Jumat</b> : Buka (8 pagi - 5 Sore)
 			</div>
 		</div>
 		<div class = "row mt-3" style = "text-align: center;">
