@@ -28,6 +28,10 @@
 
 	<link rel="stylesheet" href="{{ asset('css') }}/colors.php?color=F18052" type="text/css" />
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 	<!-- Document Title
 	============================================= -->
 
@@ -309,6 +313,17 @@ li::before{
 	}
 	
 } 
+#bouncingimageslider{
+	animation: backInLeft; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; /* don't forget to set a duration! */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  #section_hubungi_kami {
+    transition: opacity 1.5s ease, transform 1.5s ease;
+  }
+}
+
 	</style>
 	    {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> --}}
@@ -376,7 +391,7 @@ li::before{
 										<li class="menu-item"><a class="menu-link" href=""><div>Coming Soon</div></a></li>
 									</ul>
 								</li>
-								<li class="menu-item current"><a class="menu-link" href="{{url('/hubungikami')}}"><div>Contact Us</div></a>
+								<li class="menu-item"><a class="menu-link" href="{{url('/hubungikami')}}"><div>Contact Us</div></a>
 								</li>
 								<li class="menu-item"><a class="menu-link" href="" style = "display:none;padding:10px !important;" id = "button_beliforklift_responsive"><div style = "padding:0px !important;"><button id = "beliforklift_responsive" class = "btn btn-success" style = "box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;border-radius:25px;border:0px;background-color: #ff5A00 ; font-family: Open Sans,system-ui; font-weight:600; letter-spacing:1px ;color:white;font-size:15px;"> <i class="bi bi-cart" style = "color:white !important;"></i> &nbsp;Sewa / Beli Forklift Sekarang</button></div></a>
 								</li>
@@ -412,7 +427,7 @@ li::before{
 								</div>
 							</div>
 						</div>
-						<div class="swiper-slide-bg" style="background-image: url('{{ asset('css/images/slider/Image_Slider.jpg') }}'); background-position: center;background-size:cover;"></div>
+						<div class="swiper-slide-bg" id = "bouncingimageslider"  style="background-image: url('{{ asset('css/images/slider/Image_Slider.jpg') }}'); background-position: center;background-size:cover;"></div>
 					</div>
 					{{-- <div class="swiper-slide">
 						<div class="container">
@@ -1291,7 +1306,9 @@ li::before{
 </html>
 <script>
 
-	window.onscroll = function() {myFunction()};
+	window.onscroll = function() {myFunction(
+		
+	)};
 
   var scrolled = 10;
   document.getElementById("myBar").style.width = scrolled + "%";
@@ -1303,5 +1320,31 @@ function myFunction() {
   document.getElementById("myBar").style.width = scrolled + "%";
 } 
 
+
+// var observer = new IntersectionObserver(function() {
+// 	// callback code
+// 	alert("test");
+// }, { root: document.querySelector('#section_hubungi_kami') });
+
+// // observing a target element
+// observer.observe(document.querySelector("#section_hubungi_kami"));
+
+// // Remove the transition class
+// const square = document.querySelector('#section_hubungi_kami');
+// square.classList.remove('#section_hubungi_kami');
+
+// // Create the observer, same as before:
+// const observer = new IntersectionObserver(entries => {
+//   entries.forEach(entry => {
+//     if (entry.isIntersecting) {
+//       square.classList.add('#section_hubungi_kami');
+//       return;
+//     }
+
+//     square.classList.remove('#section_hubungi_kami');
+//   });
+// });
+
+// observer.observe(document.querySelector('#section_hubungi_kami'));
 
 </script>
