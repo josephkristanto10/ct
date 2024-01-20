@@ -19,3 +19,6 @@ Route::get('/', function () {
 Route::get('/service', function () {
     return view('services');
 });
+Route::get('/hubungikami', function () {
+    return view('contactus');
+});

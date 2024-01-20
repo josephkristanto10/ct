@@ -80,9 +80,6 @@ color: #ff5A00;
 /* border:1px solid #ff5A00; */
 }
 
-
-
-
 #harus_preview_image ul img {
 	width: 100%;
 	display: block;
@@ -395,7 +392,7 @@ li::before{
 							<ul class="menu-container" style = "padding-top:15px;">
 							
 								<li class="menu-item "><a class="menu-link" href="{{url('/')}}"><div>Home</div></a></li>
-								<li class="menu-item current"><a class="menu-link" href="{{url('/service')}}" ><div>Our Services</div></a>
+								<li class="menu-item "><a class="menu-link" href="{{url('/service')}}" ><div>Our Services</div></a>
 									<ul class="sub-menu-container">
 										<li class="menu-item"><a class="menu-link" href="{{url('/service')}}"><div>Forklift</div></a></li>
 										<li class="menu-item"><a class="menu-link" ><div>Coming Soon</div></a></li>
@@ -431,78 +428,57 @@ li::before{
 		<br>
 
 		<div class="container clearfix mt-2" style = "width:100%;" id = "harus_preview_image">
-		<h3 style = "font-size:40px;text-align:center;">Produk Kami</h3>
-		<ul style = "margin:auto;width:100%;">
-			<li>
-				<span style = "position: absolute;z-index:100;background-color:#ff5A00;border-radius:40px;color:white;padding:5px;margin-top:10px;margin-left:10px;font-weight:600;">1,5 Ton</span>
-				<a href="">
-					<figure>
-						
-						<img src="{{asset('css/images/services/Services_1.jpg')}}" alt='Volcano and lava field against a stormy sky'>
-						<a href = "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%201,5%20Ton"><figcaption><img src = "{{asset('css/images/logo_wa.png')}}" style = "width:50px;height:50px;" /> <span style = "background-color:#02b326;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin</span> </figcaption></a>
-					</figure>
-				</a>
-			</li>
-			<li>
-				<span style = "position: absolute;z-index:100;background-color:#ff5A00;border-radius:40px;color:white;padding:5px;margin-top:10px;margin-left:10px;font-weight:600;">2 Ton</span>
-				<a href="">
-					<figure>
-						<img src="{{asset('css/images/services/Services_2.jpg')}}" alt='Volcano and lava field against a stormy sky'>
-						<a href = "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%202%20Ton"><figcaption><img src = "{{asset('css/images/logo_wa.png')}}" style = "width:50px;height:50px;" > <span style = "background-color:#02b326;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin</span> </figcaption> </a>
-						</figure>
-				</a>
-			</li>
-			<li>
-				<span style = "position: absolute;z-index:100;background-color:#ff5A00;border-radius:40px;color:white;padding:5px;margin-top:10px;margin-left:10px;font-weight:600;">2,5 Ton</span>
-				<a href="">
-					<figure>
-						<img src="{{asset('css/images/services/Services_3.jpg')}}" alt='Volcano and lava field against a stormy sky'>
-						<a href= "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%202,5%20Ton"><figcaption><img src = "{{asset('css/images/logo_wa.png')}}" style = "width:50px;height:50px;" > <span style = "background-color:#02b326;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin</span> </figcaption> </a>
-						</figure>
-				</a>
-			</li>
-			<li>
-				<span style = "position: absolute;z-index:100;background-color:#ff5A00;border-radius:40px;color:white;padding:5px;margin-top:10px;margin-left:10px;font-weight:600;">3 Ton</span>
+		<h3 style = "font-size:40px;text-align:center;">Hubungi Kami</h3>
+		<p>Butuh bantuan untuk mencari forklift berkualitas mulai dari kapasitas 1,5 ton sampai 11 ton? yuk langsung saja datangi offline store kami yang berletak di Kota Surabaya pada <b>jln Kedinding Lor no 88 - 90</b> Atau bisa menekan kotak google maps yang ada dibawah halaman. Selain itu, kamu juga bisa hubungi nomor whatsapp admin yang tertera. Terima Kasih.</p>
 
-				<a href="">
-					<figure>
-						<img src="{{asset('css/images/services/Services_4.jpg')}}" alt='Volcano and lava field against a stormy sky'>
-						<a href= "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%203%20Ton"><figcaption><img src = "{{asset('css/images/logo_wa.png')}}" style = "width:50px;height:50px;" > <span style = "background-color:#02b326;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin</span> </figcaption> </a>
-						</figure>
-				</a>
-			</li>
-			<li>
-				<span style = "position: absolute;z-index:100;background-color:#ff5A00;border-radius:40px;color:white;padding:5px;margin-top:10px;margin-left:10px;font-weight:600;">3,5 Ton</span>
-
-				<a href="">
-					<figure>
-						<img src="{{asset('css/images/services/Services_5.jpg')}}" alt='Volcano and lava field against a stormy sky'>
-						<a href= "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%203,5%20Ton">	<figcaption><img src = "{{asset('css/images/logo_wa.png')}}" style = "width:50px;height:50px;" > <span style = "background-color:#02b326;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin</span> </figcaption> </a>
-						</figure>
-				</a>
-			</li>
-			<li>
-				<span style = "position: absolute;z-index:100;background-color:#ff5A00;border-radius:40px;color:white;padding:5px;margin-top:10px;margin-left:10px;font-weight:600;">7 Ton</span>
-
-				<a href="">
-					<figure>
-						<img src="{{asset('css/images/services/Services_6.jpg')}}" alt='Volcano and lava field against a stormy sky'>
-						<a href= "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%207%20Ton">	<figcaption><img src = "{{asset('css/images/logo_wa.png')}}" style = "width:50px;height:50px;" > <span style = "background-color:#02b326;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin</span> </figcaption> </a>
-						</figure>
-				</a>
-			</li>
-		
-			
-		</ul>
+		<br>
+		<h3 style = "font-size:40px;text-align:center;">Jam Operasional Kami</h3>
+		<div class = "row mt-3" style = "text-align: center;">
+			<div class = "col-md-12"><i class="bi bi-check2" style = "color:green;font-size:20px;"></i>&nbsp;<b>Senin</b> : Buka (8 pagi - 5 Malam)
+			</div>
+		</div>
+		<div class = "row mt-3" style = "text-align: center;">
+			<div class = "col-md-12"><i class="bi bi-check2" style = "color:green;font-size:20px;"></i>&nbsp;<b>Selasa</b> : Buka (8 pagi - 5 Malam)
+			</div>
+		</div>
+		<div class = "row mt-3" style = "text-align: center;">
+			<div class = "col-md-12"><i class="bi bi-check2" style = "color:green;font-size:20px;"></i>&nbsp;<b>Rabu</b> : Buka (8 pagi - 5 Malam)
+			</div>
+		</div>
+		<div class = "row mt-3" style = "text-align: center;">
+			<div class = "col-md-12"><i class="bi bi-check2" style = "color:green;font-size:20px;"></i>&nbsp;<b>Kamis</b> : Buka (8 pagi - 5 Malam)
+			</div>
+		</div>
+		<div class = "row mt-3" style = "text-align: center;">
+			<div class = "col-md-12"><i class="bi bi-check2" style = "color:green;font-size:20px;"></i>&nbsp;<b>Jumat</b> : Buka (8 pagi - 5 Malam)
+			</div>
+		</div>
+		<div class = "row mt-3" style = "text-align: center;">
+			<div class = "col-md-12"><i class="bi bi-x-lg" style = "color:red;font-size:20px;"></i>&nbsp;<b>Sabtu & Minggu</b> : Tutup 
+			</div>
+		</div>
+		<div class = "row mt-3" style = "text-align: center;">
+			<div class = "col-md-12" style = "color:green;"></i>&nbsp;<b>*Admin Whatsapp Online Setiap Hari jam 10 pagi - jam 7 Malam </b>
+			</div>
+		</div>
 		<br><br>
-			<div style = "text-align:center;padding:20px;background-color:#ff5A00;color:white;border-radius:10px;width:100%;">Masih banyak forklift dengan kapasitas selain diatas. yuk hubungi Admin kami.<a  href= "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%20lainnya%20selain%20di%20Website" style = ""> <div id = "penyangga_tanya_admin" style = "display:none;"></div> <span style = "border:1px solid white; background-color:transparent;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin &nbsp;<img src = "{{asset('css/images/logo_wa.png')}}" style = "width:28px;height:27px;" ></span> </a></div>
+		<div style = "text-align:center;padding:20px;background-color:#ff5A00;color:white;border-radius:10px;width:100%;">Penasaran dengan jenis forklift dan kapasitasnya?. yuk hubungi Admin kami.<a  href= "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%20lainnya%20selain%20di%20Website" style = ""> <div id = "penyangga_tanya_admin" style = "display:none;"></div> <span style = "border:1px solid white; background-color:transparent;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin &nbsp;<img src = "{{asset('css/images/logo_wa.png')}}" style = "width:28px;height:27px;" ></span> </a></div>
+
+		<br><br>
+		<h3 style = "font-size:40px;text-align:center;">Offline Store Kami</h3>
+		<div style = "position: relative;height:90% !important;;">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15832.622048998037!2d112.77050281237106!3d-7.223096435547495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f853b7af2615%3A0xd57269bd0950701!2sJl.%20Kedinding%20Lor%20No.88-90%2C%20Tanah%20Kali%20Kedinding%2C%20Kec.%20Kenjeran%2C%20Surabaya%2C%20Jawa%20Timur%2060129!5e0!3m2!1sen!2sid!4v1705717160732!5m2!1sen!2sid"  style="border:0;width:100%;height:350px !important;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+		<div style = "clear:both;"></div>
+		<br><br>
 
 
 		</div>
-		
+	
 		<br><br>
 	
-
+	
+		<br><br>
 		<!-- Footer
 		============================================= -->
 		<footer id="footer" class="dark">

@@ -376,7 +376,7 @@ li::before{
 										<li class="menu-item"><a class="menu-link" href=""><div>Coming Soon</div></a></li>
 									</ul>
 								</li>
-								<li class="menu-item"><a class="menu-link" href=""><div>Contact Us</div></a>
+								<li class="menu-item current"><a class="menu-link" href="{{url('/hubungikami')}}"><div>Contact Us</div></a>
 								</li>
 								<li class="menu-item"><a class="menu-link" href="" style = "display:none;padding:10px !important;" id = "button_beliforklift_responsive"><div style = "padding:0px !important;"><button id = "beliforklift_responsive" class = "btn btn-success" style = "box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;border-radius:25px;border:0px;background-color: #ff5A00 ; font-family: Open Sans,system-ui; font-weight:600; letter-spacing:1px ;color:white;font-size:15px;"> <i class="bi bi-cart" style = "color:white !important;"></i> &nbsp;Sewa / Beli Forklift Sekarang</button></div></a>
 								</li>
