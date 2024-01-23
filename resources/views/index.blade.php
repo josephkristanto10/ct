@@ -181,6 +181,9 @@ li::before{
 	#logo_responsive span{
 		font-size:15px !important;
 	}
+	#slider{
+		height:85vh;
+	}
 } 
 
 /* for large tablets */
@@ -214,8 +217,12 @@ li::before{
 		padding:0px !important;
 	}
 	#slider{
-		min-height: 35vh !important;
+		min-height: 55vh !important;
 	}
+	#slider{
+		height:85vh;
+	}
+	
 	#button_hubungi_kami_responsive{
 		text-align: center;
 	}
@@ -259,6 +266,9 @@ li::before{
 	}
 	#slider{
 		min-height: 35vh !important;
+	}
+	#slider{
+		height:85vh;
 	}
 	#button_hubungi_kami_responsive{
 		text-align: center;
@@ -439,7 +449,7 @@ li::before{
 								</div>
 							</div>
 						</div>
-						<div class="swiper-slide-bg" id = "bouncingimageslider"  style="background-image: url('{{ asset('css/images/gambar_cover.jpg') }}'); background-position: center;background-size:cover;"></div>
+						<div class="swiper-slide-bg" id = "bouncingimageslider"  style="background-image: url('{{ asset('css/images/gambar_cover.jpg') }}'); background-position: center;background-size:100% 100%;"></div>
 					</div>
 					{{-- <div class="swiper-slide">
 						<div class="container">
