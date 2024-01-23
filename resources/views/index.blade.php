@@ -477,8 +477,8 @@ li::before{
 						<div class="swiper-slide-bg" style="background-image: url('{{ asset('css/images/slider/1.jpg') }}'); background-position: center bottom;"></div>
 					</div> --}}
 				</div>
-				<div class="slider-arrow-left"><i class="icon-angle-left"></i></div>
-				<div class="slider-arrow-right"><i class="icon-angle-right"></i></div>
+				{{-- <div class="slider-arrow-left"><i class="icon-angle-left"></i></div>
+				<div class="slider-arrow-right"><i class="icon-angle-right"></i></div> --}}
 			</div>
 
 		</section>
