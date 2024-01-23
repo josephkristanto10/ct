@@ -610,15 +610,15 @@ li::before{
 								<blockquote style = "text-align:justify;"><b style = "font-size:17px;">PT. Hailiang Nova Material </b> <br><br> Wah keren sih untuk pelayanan ini <b>PT. Aneka Mesin Prima</b>, Kami menyewa forklift bobot 7 ton, Kondisi Mesin nya juga TOP deh, kedepannya aku mau sewa ditempat ini lagi.
 								  <div class="arrow"></div>
 								</blockquote>
-								<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample3.jpg" alt="sample3"/>
+								{{-- <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample3.jpg" alt="sample3"/> --}}
 								<div class="author">
 								</div>
 							  </figure>
 							  <figure class="snip1139 hover">
-								<blockquote style = "text-align:justify;"><b style = "font-size:17px;text-align:left !important;">PT. Griya Maxindo </b> <br><br>Beli Forklift ditempat <b>PT. Aneka Mesin Prima</b>  tidak mengecewakan dan kualitasnya <b>Terbaik</b>, totalitas dari pelayanan tempat ini keren banget.
+								<blockquote style = "text-align:justify;"><b style = "font-size:17px;text-align:left !important;">PT. Griya Maxindo </b> <br><br>Beli Forklift ditempat <b>PT. Aneka Mesin Prima</b>  tidak mengecewakan dan kualitasnya <b>Terbaik</b>, totalitas dari pelayanan tempat ini keren banget. Jangan lupa untuk beli forklift di tempat ini, Kualitas gak perlu diragukan.
 									<div class="arrow"></div>
 								</blockquote>
-								<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample47.jpg" alt="sample47"/>
+								{{-- <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample47.jpg" alt="sample47"/> --}}
 								<div class="author">
 							
 								</div>
@@ -627,7 +627,7 @@ li::before{
 								<blockquote style = "text-align:justify;"><b style = "font-size:17px;text-align:left !important;">Irwan Caterpillar </b> <br><br>Tidak Kecewa saya beli forklift CAT 3 ton untuk pemakaian pribadi di PT. Aneka Mesin Prima, forklift yang saya terima persis <b>seperti baru</b> dan <b>kualitas warna catnya tidak main main</b>. Sukses terus, Thankyou.
 									<div class="arrow"></div>
 								</blockquote>
-								<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample3.jpg" alt="sample47"/>
+								{{-- <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample3.jpg" alt="sample47"/> --}}
 								<div class="author">
 							
 								</div>
