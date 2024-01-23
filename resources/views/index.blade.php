@@ -182,7 +182,7 @@ li::before{
 		font-size:15px !important;
 	}
 	#slider{
-		height:85vh;
+		height:95vh;
 	}
 } 
 
