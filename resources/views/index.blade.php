@@ -439,7 +439,7 @@ li::before{
 								</div>
 							</div>
 						</div>
-						<div class="swiper-slide-bg" id = "bouncingimageslider"  style="background-image: url('{{ asset('css/images/slider/Image_Slider.jpg') }}'); background-position: center;background-size:cover;"></div>
+						<div class="swiper-slide-bg" id = "bouncingimageslider"  style="background-image: url('{{ asset('css/images/gambar_cover.jpg') }}'); background-position: center;background-size:cover;"></div>
 					</div>
 					{{-- <div class="swiper-slide">
 						<div class="container">
