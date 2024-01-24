@@ -343,7 +343,7 @@ li::before{
 	<title>Jual Forklift Termurah - PT Aneka Mesin Prima</title>
 	<meta name="description" content="Forklift termurah hanya di PT. Aneka Mesin Prima" />
 	<meta name=”robots” content="index, follow">
-	<meta name="keywords" content="Forklift berkualitas,Forklift Surabaya,PT. Aneka Mesin Prima,aneka mesin prima,Forklift 3 Ton, Forklift 1.5 Ton, Forklift 2 Ton, Forkflift 2.5 Ton, Forklift 7 Ton, Forklift 10 Ton">
+	<meta name="keywords" content="Forklift berkualitas,Sewa Forklift,Sewa Forklift Murah,Sewa Forklift Surabaya,Beli Forklift Murah,Forklift Surabaya,PT. Aneka Mesin Prima,aneka mesin prima,Forklift 3 Ton, Forklift 1.5 Ton, Forklift 2 Ton, Forkflift 2.5 Ton, Forklift 7 Ton, Forklift 10 Ton">
 	<meta data-rh="true" property="og:title" content="Beli & Sewa Forklift Murah | PT. Aneka Mesin Prima">
 
 <!-- Google tag (gtag.js) -->
