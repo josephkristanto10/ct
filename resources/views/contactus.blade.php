@@ -20,12 +20,9 @@
 	<link rel="stylesheet" href="{{ asset('css/font-icons.css') }}" type="text/css" />
 	<link rel="stylesheet" href="{{ asset('css/animate.css') }}" type="text/css" />
 	<link rel="stylesheet" href="{{ asset('css/magnific-popup.css') }}" type="text/css" />
-
 	<link rel="stylesheet" href="{{ asset('css/fonts.css') }}" type="text/css" />
-
 	<link rel="stylesheet" href="{{ asset('css/custom.css') }}" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-
 	<link rel="stylesheet" href="{{ asset('css') }}/colors.php?color=F18052" type="text/css" />
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
