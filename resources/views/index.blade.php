@@ -632,6 +632,34 @@ li::before{
 							
 								</div>
 							  </figure>
+
+
+							  <figure class="snip1139" >
+								<blockquote style = "text-align:justify;"><b style = "font-size:17px;">PT. Sumber Jaya Glassindo </b> <br><br> Unit <b>Forklift 3,5 ton</b>, yang saya beli di PT. Aneka Mesin Prima serasa seperti baru, pemakaiannya oke.
+								  <div class="arrow"></div>
+								</blockquote>
+								{{-- <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample3.jpg" alt="sample3"/> --}}
+								<div class="author">
+								</div>
+							  </figure>
+							  <figure class="snip1139 hover">
+								<blockquote style = "text-align:justify;"><b style = "font-size:17px;text-align:left !important;">Pak Gunawan </b> <br><br>Saya beli <b>Forklift Toyota 2,5 ton</b>  di PT. Aneka Mesin Prima dengan harga yang lumayan murah dan bersaing.. warna cat forkliftnya seperti baru.
+									<div class="arrow"></div>
+								</blockquote>
+								{{-- <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample47.jpg" alt="sample47"/> --}}
+								<div class="author">
+							
+								</div>
+							  </figure>
+							  <figure class="snip1139 hover">
+								<blockquote style = "text-align:justify;"><b style = "font-size:17px;text-align:left !important;">Pak Anggi </b> <br><br>Saya langsung beli 2 unit forklift boom tinggi di PT. Aneka Mesini Prima, semoga unit ini bisa membawa berkah untuk usaha saya.
+									<div class="arrow"></div>
+								</blockquote>
+								{{-- <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample3.jpg" alt="sample47"/> --}}
+								<div class="author">
+							
+								</div>
+							  </figure>
 						
 						</div>
 					</div>
