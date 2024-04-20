@@ -753,7 +753,7 @@ li::before{
 							<div class="oc-item">
 								<div class="entry">
 									<div class="entry-image">
-										<a data-lightbox="image"><img src="{{ asset('css/images/produk/1.jpg') }}" alt="Standard Post with Image"></a>
+										<a data-lightbox="image"><img src="{{ asset('css/images/produk/jenis/1.jpg') }}" alt="Standard Post with Image"></a>
 									</div>
 									{{-- <div class="entry-title title-sm nott">
 										<h3><a href="#">Upcoming Projects in Australia</a></h3>
@@ -773,7 +773,7 @@ li::before{
 							<div class="oc-item">
 								<div class="entry">
 									<div class="entry-image">
-										<a data-lightbox="image"><img src="{{ asset('css/images/produk/2.jpg') }}" alt="Standard Post with Image"></a>
+										<a data-lightbox="image"><img src="{{ asset('css/images/produk/jenis/2.jpg') }}" alt="Standard Post with Image"></a>
 									</div>
 									{{-- <div class="entry-title title-sm nott">
 										<h3><a href="#">Upcoming Projects in Australia</a></h3>
@@ -793,7 +793,7 @@ li::before{
 							<div class="oc-item">
 								<div class="entry">
 									<div class="entry-image">
-										<a data-lightbox="image"><img src="{{ asset('css/images/produk/3.jpg') }}" alt="Standard Post with Image"></a>
+										<a data-lightbox="image"><img src="{{ asset('css/images/produk/jenis/3.jpg') }}" alt="Standard Post with Image"></a>
 									</div>
 									{{-- <div class="entry-title title-sm nott">
 										<h3><a href="#">Upcoming Projects in Australia</a></h3>
@@ -812,7 +812,7 @@ li::before{
 							<div class="oc-item">
 								<div class="entry">
 									<div class="entry-image">
-										<a data-lightbox="image"><img src="{{ asset('css/images/produk/4.jpg') }}" alt="Standard Post with Image"></a>
+										<a data-lightbox="image"><img src="{{ asset('css/images/produk/jenis/4.jpg') }}" alt="Standard Post with Image"></a>
 									</div>
 									{{-- <div class="entry-title title-sm nott">
 										<h3><a href="#">Upcoming Projects in Australia</a></h3>
