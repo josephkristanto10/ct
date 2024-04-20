@@ -455,7 +455,7 @@ li::before{
 					</figure>
 				</a>
 			</li>
-			<li>
+			{{-- <li>
 				<span style = "position: absolute;z-index:100;background-color:#ff5A00;border-radius:40px;color:white;padding:5px;margin-top:10px;margin-left:10px;font-weight:600;">2 Ton</span>
 				<a href="">
 					<figure>
@@ -463,7 +463,7 @@ li::before{
 						<a href = "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%202%20Ton"><figcaption><img src = "{{asset('css/images/logo_wa.png')}}" style = "width:50px;height:50px;" > <span style = "background-color:#02b326;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin</span> </figcaption> </a>
 						</figure>
 				</a>
-			</li>
+			</li> --}}
 			<li>
 				<span style = "position: absolute;z-index:100;background-color:#ff5A00;border-radius:40px;color:white;padding:5px;margin-top:10px;margin-left:10px;font-weight:600;">2,5 Ton</span>
 				<a href="">
