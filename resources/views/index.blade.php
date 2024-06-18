@@ -614,6 +614,7 @@ li::before{
 								<div class="author">
 								</div>
 							  </figure>
+							  
 							  <figure class="snip1139 hover">
 								<blockquote style = "text-align:justify;"><b style = "font-size:17px;text-align:left !important;">PT. Griya Maxindo </b> <br><br>Beli Forklift ditempat <b>PT. Aneka Mesin Prima</b>  tidak mengecewakan dan kualitasnya <b>Terbaik</b>, totalitas dari pelayanan tempat ini keren banget. Jangan lupa untuk beli forklift di tempat ini, Kualitas gak perlu diragukan.
 									<div class="arrow"></div>
@@ -653,6 +654,15 @@ li::before{
 							  </figure>
 							  <figure class="snip1139 hover">
 								<blockquote style = "text-align:justify;"><b style = "font-size:17px;text-align:left !important;">Pak Anggi </b> <br><br>Saya langsung beli 2 unit forklift boom tinggi di PT. Aneka Mesini Prima, semoga unit ini bisa membawa berkah untuk usaha saya.
+									<div class="arrow"></div>
+								</blockquote>
+								{{-- <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample3.jpg" alt="sample47"/> --}}
+								<div class="author">
+							
+								</div>
+							  </figure>
+							  <figure class="snip1139 hover">
+								<blockquote style = "text-align:justify;"><b style = "font-size:17px;text-align:left !important;">Pak Firman </b> <br><br>Saya beli forklift 1.5 ton side shifting di PT Aneka Mesin Prima untuk kebutuhan usaha keramik saya.. hasilnya mantap.
 									<div class="arrow"></div>
 								</blockquote>
 								{{-- <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample3.jpg" alt="sample47"/> --}}
