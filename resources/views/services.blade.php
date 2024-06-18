@@ -498,7 +498,7 @@ li::before{
 
 				<a href="">
 					<figure>
-						<img src="{{asset('css/images/services/Services_6.jpg')}}" alt='Volcano and lava field against a stormy sky'>
+						<img src="{{asset('css/images/services/7ton.jpg')}}" alt='Volcano and lava field against a stormy sky'>
 						<a href= "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%207%20Ton">	<figcaption><img src = "{{asset('css/images/logo_wa.png')}}" style = "width:50px;height:50px;" > <span style = "background-color:#02b326;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin</span> </figcaption> </a>
 						</figure>
 				</a>
