@@ -822,7 +822,7 @@ li::before{
 							<div class="oc-item">
 								<div class="entry">
 									<div class="entry-image">
-										<a data-lightbox="image"><img style = "max-height:300px;" src="{{ asset('css/images/produk/jenis/4.jpg') }}" alt="Standard Post with Image"></a>
+										<a data-lightbox="image"><img  src="{{ asset('css/images/produk/jenis/4.jpg') }}" alt="Standard Post with Image"></a>
 									</div>
 									{{-- <div class="entry-title title-sm nott">
 										<h3><a href="#">Upcoming Projects in Australia</a></h3>
