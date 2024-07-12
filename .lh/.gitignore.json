@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 4,
+            "activePatchIndex": 10,
             "patches": [
                 {
                     "date": 1720764796549,
@@ -24,6 +24,30 @@
                 {
                     "date": 1720764921736,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,27 @@\n+/node_modules\n+/public/build\n+/public/hot\n+/public/storage\n+/storage/*.key\n+/vendor\n+.env\n+.env.backup\n+.env.production\n+.phpunit.result.cache\n+Homestead.json\n+Homestead.yaml\n+auth.json\n+npm-debug.log\n+yarn-error.log\n+/.fleet\n+/.idea\n+/.vscode\n+projek_lusi_final.zip\n+projek_lusi.zip\n+/projek_lusi_final\n+/projek_lusi\n+/testing\n+/projectfloristwebsite\n+/floristwebsite\n+/typingtoearn\n+/ayncollection\n"
+                },
+                {
+                    "date": 1720769155157,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,55 +1,27 @@\n-/node_modules\n-/public/build\n-/public/hot\n-/public/storage\n-/storage/*.key\n-/vendor\n-.env\n-.env.backup\n-.env.production\n-.phpunit.result.cache\n-Homestead.json\n-Homestead.yaml\n-auth.json\n-npm-debug.log\n-yarn-error.log\n-/.fleet\n-/.idea\n-/.vscode\n-projek_lusi_final.zip\n-projek_lusi.zip\n-/projek_lusi_final\n-/projek_lusi\n-/testing\n-/projectfloristwebsite\n-/floristwebsite\n-/typingtoearn\n-/ayncollection\n-/node_modules\n-/public/build\n-/public/hot\n-/public/storage\n-/storage/*.key\n-/vendor\n-.env\n-.env.backup\n-.env.production\n-.phpunit.result.cache\n-Homestead.json\n-Homestead.yaml\n-auth.json\n-npm-debug.log\n-yarn-error.log\n-/.fleet\n-/.idea\n-/.vscode\n-projek_lusi_final.zip\n-projek_lusi.zip\n-/projek_lusi_final\n-/projek_lusi\n-/testing\n-/projectfloristwebsite\n-/floristwebsite\n-\n-/typingtoearn\n-/ayncollection\n+/node_modules\r\n+/public/build\r\n+/public/hot\r\n+/public/storage\r\n+/storage/*.key\r\n+/vendor\r\n+.env\r\n+.env.backup\r\n+.env.production\r\n+.phpunit.result.cache\r\n+Homestead.json\r\n+Homestead.yaml\r\n+auth.json\r\n+npm-debug.log\r\n+yarn-error.log\r\n+/.fleet\r\n+/.idea\r\n+/.vscode\r\n+projek_lusi_final.zip\r\n+projek_lusi.zip\r\n+/projek_lusi_final\r\n+/projek_lusi\r\n+/testing\r\n+/projectfloristwebsite\r\n+/floristwebsite\r\n+/typingtoearn\r\n+/ayncollection\r\n"
+                },
+                {
+                    "date": 1720769190393,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,27 @@\n+/node_modules\r\n+/public/build\r\n+/public/hot\r\n+/public/storage\r\n+/storage/*.key\r\n+/vendor\r\n+.env\r\n+.env.backup\r\n+.env.production\r\n+.phpunit.result.cache\r\n+Homestead.json\r\n+Homestead.yaml\r\n+auth.json\r\n+npm-debug.log\r\n+yarn-error.log\r\n+/.fleet\r\n+/.idea\r\n+/.vscode\r\n+projek_lusi_final.zip\r\n+projek_lusi.zip\r\n+/projek_lusi_final\r\n+/projek_lusi\r\n+/testing\r\n+/projectfloristwebsite\r\n+/floristwebsite\r\n+/typingtoearn\r\n+\r\n"
+                },
+                {
+                    "date": 1720769453913,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,27 @@\n+/node_modules\r\n+/public/build\r\n+/public/hot\r\n+/public/storage\r\n+/storage/*.key\r\n+/vendor\r\n+.env\r\n+.env.backup\r\n+.env.production\r\n+.phpunit.result.cache\r\n+Homestead.json\r\n+Homestead.yaml\r\n+auth.json\r\n+npm-debug.log\r\n+yarn-error.log\r\n+/.fleet\r\n+/.idea\r\n+/.vscode\r\n+projek_lusi_final.zip\r\n+projek_lusi.zip\r\n+/projek_lusi_final\r\n+/projek_lusi\r\n+/testing\r\n+/projectfloristwebsite\r\n+/floristwebsite\r\n+/typingtoearn\r\n+ayncollection\r\n"
+                },
+                {
+                    "date": 1720769473693,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,27 @@\n+/node_modules\r\n+/public/build\r\n+/public/hot\r\n+/public/storage\r\n+/storage/*.key\r\n+/vendor\r\n+.env\r\n+.env.backup\r\n+.env.production\r\n+.phpunit.result.cache\r\n+Homestead.json\r\n+Homestead.yaml\r\n+auth.json\r\n+npm-debug.log\r\n+yarn-error.log\r\n+/.fleet\r\n+/.idea\r\n+/.vscode\r\n+projek_lusi_final.zip\r\n+projek_lusi.zip\r\n+/projek_lusi_final\r\n+/projek_lusi\r\n+/testing\r\n+/projectfloristwebsite\r\n+/floristwebsite\r\n+/typingtoearn\r\n+/ayncollection\r\n"
+                },
+                {
+                    "date": 1720769491597,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,27 @@\n+/node_modules\r\n+/public/build\r\n+/public/hot\r\n+/public/storage\r\n+/storage/*.key\r\n+/vendor\r\n+.env\r\n+.env.backup\r\n+.env.production\r\n+.phpunit.result.cache\r\n+Homestead.json\r\n+Homestead.yaml\r\n+auth.json\r\n+npm-debug.log\r\n+yarn-error.log\r\n+/.fleet\r\n+/.idea\r\n+/.vscode\r\n+projek_lusi_final.zip\r\n+projek_lusi.zip\r\n+/projek_lusi_final\r\n+/projek_lusi\r\n+/testing\r\n+/projectfloristwebsite\r\n+/floristwebsite\r\n+/typingtoearn\r\n+/ayncollection\r\n"
+                },
+                {
+                    "date": 1720769515895,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,27 @@\n+/node_modules\r\n+/public/build\r\n+/public/hot\r\n+/public/storage\r\n+/storage/*.key\r\n+/vendor\r\n+.env\r\n+.env.backup\r\n+.env.production\r\n+.phpunit.result.cache\r\n+Homestead.json\r\n+Homestead.yaml\r\n+auth.json\r\n+npm-debug.log\r\n+yarn-error.log\r\n+/.fleet\r\n+/.idea\r\n+/.vscode\r\n+projek_lusi_final.zip\r\n+projek_lusi.zip\r\n+/projek_lusi_final\r\n+/projek_lusi\r\n+/testing\r\n+/projectfloristwebsite\r\n+/floristwebsite\r\n+/typingtoearn\r\n+/ayncollection\r\n"
                 }
             ],
             "date": 1720764796549,
