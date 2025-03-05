@@ -385,7 +385,7 @@ li::before{
 			<div id="header-wrap" >
 				
 				<span style = "float:left;position: relative;left:50px;" id = "logo_responsive"><a href = "{{url('/')}}"><img src = "{{ asset('css/images/logo_amp.png') }}" style = "width:100px; height:100px;"/> </a><span style = "font-weight:600;color:#4A4A4A;font-size:20px;"><a href = "{{url('/')}}" style = "color:#4A4A4A !important;">PT. Aneka Mesin Prima</a></span></span>
-				<span style = "float:right;position: relative;right:50px;" id = "button_responsive"><a href = "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20"><button id = "beliforklift" class = "btn btn-success" style = "box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;border-radius:25px;border:0px;background-color: #ff5A00 ; font-family: Open Sans,system-ui; font-weight:600; letter-spacing:1px ;color:white;margin-top:30px;font-size:15px;"><i class="bi bi-cart" style = "color:white !important;"></i> &nbsp;Sewa / Beli Forklift Sekarang</button></a></span>
+				<span style = "float:right;position: relative;right:50px;" id = "button_responsive"><a href = "https://wa.me/6285393357511?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20sewa%20harian%20"><button id = "beliforklift" class = "btn btn-success" style = "box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;border-radius:25px;border:0px;background-color: #ff5A00 ; font-family: Open Sans,system-ui; font-weight:600; letter-spacing:1px ;color:white;margin-top:30px;font-size:15px;"><i class="bi bi-cart" style = "color:white !important;"></i> &nbsp;Sewa Harian Forklift Sekarang</button></a></span>
 				<div id="primary-menu-trigger" style = "float:right;">
 					<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
 				</div>
@@ -471,7 +471,7 @@ li::before{
 			</div>
 		</div>
 		<br><br>
-		<div style = "text-align:center;padding:20px;background-color:#ff5A00;color:white;border-radius:10px;width:100%;">Penasaran dengan jenis forklift dan kapasitasnya?. yuk hubungi Admin kami.<a  href= "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%20lainnya%20selain%20di%20Website" style = ""> <div id = "penyangga_tanya_admin" style = "display:none;"></div> <span style = "border:1px solid white; background-color:transparent;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin &nbsp;<img src = "{{asset('css/images/logo_wa.png')}}" style = "width:28px;height:27px;" ></span> </a></div>
+		<div style = "text-align:center;padding:20px;background-color:#ff5A00;color:white;border-radius:10px;width:100%;">Penasaran dengan jenis forklift dan kapasitasnya?. yuk hubungi Admin kami.<a  href= "https://wa.me/6285393357511?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%20lainnya%20selain%20di%20Website" style = ""> <div id = "penyangga_tanya_admin" style = "display:none;"></div> <span style = "border:1px solid white; background-color:transparent;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin &nbsp;<img src = "{{asset('css/images/logo_wa.png')}}" style = "width:28px;height:27px;" ></span> </a></div>
 
 		<br><br>
 		<h3 style = "font-size:40px;text-align:center;">Offline Store Kami</h3>
@@ -511,8 +511,7 @@ li::before{
 									<div class="col-lg-3 col-6 widget_links">
 										<h3>Marketing Office</h3>
 										<ul>
-											<li><i class="bi bi-telephone-inbound-fill"></i><a href="https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20">+62 812-580-208-41</a></li>
-											<li><i class="bi bi-pin-fill"></i><a href="https://www.google.com/maps/place/Jl.+Kedinding+Lor+No.88-90,+Tanah+Kali+Kedinding,+Kec.+Kenjeran,+Surabaya,+Jawa+Timur+60129/@-7.2213183,112.7700947,18z/data=!3m1!4b1!4m6!3m5!1s0x2dd7f853b7af2615:0xd57269bd0950701!8m2!3d-7.2216509!4d112.7712856!16s%2Fg%2F11cpf7n8lp?entry=ttu">Jln. Kedinding Lor no 88-90, Surabaya, Jawa Timur</a></li>
+											<li><i class="bi bi-telephone-inbound-fill"></i><a href="https://wa.me/6285393357511?text=Halo,%20Saya%20ingin%20bertanya%20tentang%20sewa%20harian%20">+62 853-933-575-11</a></li>											<li><i class="bi bi-pin-fill"></i><a href="https://www.google.com/maps/place/Jl.+Kedinding+Lor+No.88-90,+Tanah+Kali+Kedinding,+Kec.+Kenjeran,+Surabaya,+Jawa+Timur+60129/@-7.2213183,112.7700947,18z/data=!3m1!4b1!4m6!3m5!1s0x2dd7f853b7af2615:0xd57269bd0950701!8m2!3d-7.2216509!4d112.7712856!16s%2Fg%2F11cpf7n8lp?entry=ttu">Jln. Kedinding Lor no 88-90, Surabaya, Jawa Timur</a></li>
 									
 										</ul>
 									</div>
