@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 1,
+            "activePatchIndex": 2,
             "patches": [
                 {
                     "date": 1706370881809,
@@ -12,6 +12,10 @@
                 {
                     "date": 1707278276961,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,14 +19,11 @@\n \t<link rel=\"stylesheet\" href=\"{{ asset('css/dark.css') }}\" type=\"text/css\" />\r\n \t<link rel=\"stylesheet\" href=\"{{ asset('css/font-icons.css') }}\" type=\"text/css\" />\r\n \t<link rel=\"stylesheet\" href=\"{{ asset('css/animate.css') }}\" type=\"text/css\" />\r\n \t<link rel=\"stylesheet\" href=\"{{ asset('css/magnific-popup.css') }}\" type=\"text/css\" />\r\n-\r\n \t<link rel=\"stylesheet\" href=\"{{ asset('css/fonts.css') }}\" type=\"text/css\" />\r\n-\r\n \t<link rel=\"stylesheet\" href=\"{{ asset('css/custom.css') }}\" type=\"text/css\" />\r\n \t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\r\n-\r\n \t<link rel=\"stylesheet\" href=\"{{ asset('css') }}/colors.php?color=F18052\" type=\"text/css\" />\r\n \t<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css\">\r\n \r\n \t<!-- Document Title\r\n"
+                },
+                {
+                    "date": 1741145902702,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -437,9 +437,9 @@\n \t\t<br>\r\n \r\n \t\t<div class=\"container clearfix mt-2\" style = \"width:100%;\" id = \"harus_preview_image\">\r\n \t\t<h3 style = \"font-size:40px;text-align:center;\">Hubungi Kami</h3>\r\n-\t\t<p>Butuh bantuan untuk mencari forklift berkualitas mulai dari kapasitas 1,5 ton sampai 10 ton? yuk langsung saja datangi offline store kami yang berletak di Kota Surabaya pada <b>jln Kedinding Lor no 88 - 90</b> Atau bisa menekan kotak google maps yang ada dibawah halaman. Selain itu, kamu juga bisa hubungi nomor whatsapp admin yang tertera. Terima Kasih.</p>\r\n+\t\t<p>Butuh bantuan untuk mencari forklift berkualitas mulai dari kapasitas 1,5 ton sampai 10 ton? yuk langsung saja datangi offline store kami yang berletak di Kota Surabaya pada <b>jln Kedinding Lor no 88 - 90</b> Atau bisa menekan kotak google maps yang ada dibawah halaman. Selain itu, kamu juga bisa hubungi nomor whatsapp admin 0853-9335-7511 atau bisa klik logo whatsapp yang tertera. Terima Kasih.</p>\r\n \r\n \t\t<br>\r\n \t\t<h3 style = \"font-size:40px;text-align:center;\">Jam Operasional Kami</h3>\r\n \t\t<div class = \"row mt-3\" style = \"text-align: center;\">\r\n"
                 }
             ],
             "date": 1706370881809,

@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 10,
+            "activePatchIndex": 21,
             "patches": [
                 {
                     "date": 1720764796549,
@@ -48,6 +48,50 @@
                 {
                     "date": 1720769515895,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,27 @@\n+/node_modules\r\n+/public/build\r\n+/public/hot\r\n+/public/storage\r\n+/storage/*.key\r\n+/vendor\r\n+.env\r\n+.env.backup\r\n+.env.production\r\n+.phpunit.result.cache\r\n+Homestead.json\r\n+Homestead.yaml\r\n+auth.json\r\n+npm-debug.log\r\n+yarn-error.log\r\n+/.fleet\r\n+/.idea\r\n+/.vscode\r\n+projek_lusi_final.zip\r\n+projek_lusi.zip\r\n+/projek_lusi_final\r\n+/projek_lusi\r\n+/testing\r\n+/projectfloristwebsite\r\n+/floristwebsite\r\n+/typingtoearn\r\n+/ayncollection\r\n"
+                },
+                {
+                    "date": 1727445586370,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,143 +20,9 @@\n projek_lusi.zip\r\n /projek_lusi_final\r\n /projek_lusi\r\n /testing\r\n+/project_home_decor\r\n /projectfloristwebsite\r\n /floristwebsite\r\n /typingtoearn\r\n /ayncollection\r\n-/node_modules\r\n-/public/build\r\n-/public/hot\r\n-/public/storage\r\n-/storage/*.key\r\n-/vendor\r\n-.env\r\n-.env.backup\r\n-.env.production\r\n-.phpunit.result.cache\r\n-Homestead.json\r\n-Homestead.yaml\r\n-auth.json\r\n-npm-debug.log\r\n-yarn-error.log\r\n-/.fleet\r\n-/.idea\r\n-/.vscode\r\n-projek_lusi_final.zip\r\n-projek_lusi.zip\r\n-/projek_lusi_final\r\n-/projek_lusi\r\n-/testing\r\n-/projectfloristwebsite\r\n-/floristwebsite\r\n-/typingtoearn\r\n-/ayncollection\r\n-/node_modules\r\n-/public/build\r\n-/public/hot\r\n-/public/storage\r\n-/storage/*.key\r\n-/vendor\r\n-.env\r\n-.env.backup\r\n-.env.production\r\n-.phpunit.result.cache\r\n-Homestead.json\r\n-Homestead.yaml\r\n-auth.json\r\n-npm-debug.log\r\n-yarn-error.log\r\n-/.fleet\r\n-/.idea\r\n-/.vscode\r\n-projek_lusi_final.zip\r\n-projek_lusi.zip\r\n-/projek_lusi_final\r\n-/projek_lusi\r\n-/testing\r\n-/projectfloristwebsite\r\n-/floristwebsite\r\n-/typingtoearn\r\n-/ayncollection\r\n-/node_modules\r\n-/public/build\r\n-/public/hot\r\n-/public/storage\r\n-/storage/*.key\r\n-/vendor\r\n-.env\r\n-.env.backup\r\n-.env.production\r\n-.phpunit.result.cache\r\n-Homestead.json\r\n-Homestead.yaml\r\n-auth.json\r\n-npm-debug.log\r\n-yarn-error.log\r\n-/.fleet\r\n-/.idea\r\n-/.vscode\r\n-projek_lusi_final.zip\r\n-projek_lusi.zip\r\n-/projek_lusi_final\r\n-/projek_lusi\r\n-/testing\r\n-/projectfloristwebsite\r\n-/floristwebsite\r\n-/typingtoearn\r\n-ayncollection\r\n-/node_modules\r\n-/public/build\r\n-/public/hot\r\n-/public/storage\r\n-/storage/*.key\r\n-/vendor\r\n-.env\r\n-.env.backup\r\n-.env.production\r\n-.phpunit.result.cache\r\n-Homestead.json\r\n-Homestead.yaml\r\n-auth.json\r\n-npm-debug.log\r\n-yarn-error.log\r\n-/.fleet\r\n-/.idea\r\n-/.vscode\r\n-projek_lusi_final.zip\r\n-projek_lusi.zip\r\n-/projek_lusi_final\r\n-/projek_lusi\r\n-/testing\r\n-/projectfloristwebsite\r\n-/floristwebsite\r\n-/typingtoearn\r\n-\r\n-/node_modules\r\n-/public/build\r\n-/public/hot\r\n-/public/storage\r\n-/storage/*.key\r\n-/vendor\r\n-.env\r\n-.env.backup\r\n-.env.production\r\n-.phpunit.result.cache\r\n-Homestead.json\r\n-Homestead.yaml\r\n-auth.json\r\n-npm-debug.log\r\n-yarn-error.log\r\n-/.fleet\r\n-/.idea\r\n-/.vscode\r\n-projek_lusi_final.zip\r\n-projek_lusi.zip\r\n-/projek_lusi_final\r\n-/projek_lusi\r\n-/testing\r\n-/projectfloristwebsite\r\n-/floristwebsite\r\n-/typingtoearn\r\n-/ayncollection\r\n"
+                },
+                {
+                    "date": 1728568786188,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,8 +21,9 @@\n /projek_lusi_final\r\n /projek_lusi\r\n /testing\r\n /project_home_decor\r\n+/project_sentra_natural_store\r\n /projectfloristwebsite\r\n /floristwebsite\r\n /typingtoearn\r\n /ayncollection\r\n"
+                },
+                {
+                    "date": 1729136532357,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,7 +23,8 @@\n /testing\r\n /project_home_decor\r\n /project_sentra_natural_store\r\n /projectfloristwebsite\r\n+/project_travel\r\n /floristwebsite\r\n /typingtoearn\r\n /ayncollection\r\n"
+                },
+                {
+                    "date": 1730609339575,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,8 +20,9 @@\n projek_lusi.zip\r\n /projek_lusi_final\r\n /projek_lusi\r\n /testing\r\n+/project_pg_wooden_house\r\n /project_home_decor\r\n /project_sentra_natural_store\r\n /projectfloristwebsite\r\n /project_travel\r\n"
+                },
+                {
+                    "date": 1739848727880,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,4 +28,6 @@\n /project_travel\r\n /floristwebsite\r\n /typingtoearn\r\n /ayncollection\r\n+/project_home_decor\r\n+\r\n"
+                },
+                {
+                    "date": 1739848733988,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,5 +29,5 @@\n /floristwebsite\r\n /typingtoearn\r\n /ayncollection\r\n /project_home_decor\r\n-\r\n+/project_pg_wooden_house\r\n"
+                },
+                {
+                    "date": 1739848751911,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,4 +30,5 @@\n /typingtoearn\r\n /ayncollection\r\n /project_home_decor\r\n /project_pg_wooden_house\r\n+/projectfloristwebsite\r\n"
+                },
+                {
+                    "date": 1739848769852,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,33 @@\n+/node_modules\r\n+/public/build\r\n+/public/hot\r\n+/public/storage\r\n+/storage/*.key\r\n+/vendor\r\n+.env\r\n+.env.backup\r\n+.env.production\r\n+.phpunit.result.cache\r\n+Homestead.json\r\n+Homestead.yaml\r\n+auth.json\r\n+npm-debug.log\r\n+yarn-error.log\r\n+/.fleet\r\n+/.idea\r\n+/.vscode\r\n+projek_lusi_final.zip\r\n+projek_lusi.zip\r\n+/projek_lusi_final\r\n+/projek_lusi\r\n+/testing\r\n+/project_pg_wooden_house\r\n+/project_home_decor\r\n+/project_sentra_natural_store\r\n+/projectfloristwebsite\r\n+/project_travel\r\n+/floristwebsite\r\n+/typingtoearn\r\n+/ayncollection\r\n+/project_home_decor\r\n+/project_pg_wooden_house\r\n"
+                },
+                {
+                    "date": 1739848775621,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,33 @@\n+/node_modules\r\n+/public/build\r\n+/public/hot\r\n+/public/storage\r\n+/storage/*.key\r\n+/vendor\r\n+.env\r\n+.env.backup\r\n+.env.production\r\n+.phpunit.result.cache\r\n+Homestead.json\r\n+Homestead.yaml\r\n+auth.json\r\n+npm-debug.log\r\n+yarn-error.log\r\n+/.fleet\r\n+/.idea\r\n+/.vscode\r\n+projek_lusi_final.zip\r\n+projek_lusi.zip\r\n+/projek_lusi_final\r\n+/projek_lusi\r\n+/testing\r\n+/project_pg_wooden_house\r\n+/project_home_decor\r\n+/project_sentra_natural_store\r\n+/projectfloristwebsite\r\n+/project_travel\r\n+/floristwebsite\r\n+/typingtoearn\r\n+/ayncollection\r\n+/project_home_decor\r\n+project_pg_wooden_house\r\n"
+                },
+                {
+                    "date": 1739848806490,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,33 @@\n+/node_modules\r\n+/public/build\r\n+/public/hot\r\n+/public/storage\r\n+/storage/*.key\r\n+/vendor\r\n+.env\r\n+.env.backup\r\n+.env.production\r\n+.phpunit.result.cache\r\n+Homestead.json\r\n+Homestead.yaml\r\n+auth.json\r\n+npm-debug.log\r\n+yarn-error.log\r\n+/.fleet\r\n+/.idea\r\n+/.vscode\r\n+projek_lusi_final.zip\r\n+projek_lusi.zip\r\n+/projek_lusi_final\r\n+/projek_lusi\r\n+/testing\r\n+/project_pg_wooden_house\r\n+/project_home_decor\r\n+/project_sentra_natural_store\r\n+/projectfloristwebsite\r\n+/project_travel\r\n+/floristwebsite\r\n+/typingtoearn\r\n+/ayncollection\r\n+/project_home_decor\r\n+/project_pg_wooden_house\r\n"
+                },
+                {
+                    "date": 1739849818452,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,104 +30,4 @@\n /typingtoearn\r\n /ayncollection\r\n /project_home_decor\r\n /project_pg_wooden_house\r\n-/node_modules\r\n-/public/build\r\n-/public/hot\r\n-/public/storage\r\n-/storage/*.key\r\n-/vendor\r\n-.env\r\n-.env.backup\r\n-.env.production\r\n-.phpunit.result.cache\r\n-Homestead.json\r\n-Homestead.yaml\r\n-auth.json\r\n-npm-debug.log\r\n-yarn-error.log\r\n-/.fleet\r\n-/.idea\r\n-/.vscode\r\n-projek_lusi_final.zip\r\n-projek_lusi.zip\r\n-/projek_lusi_final\r\n-/projek_lusi\r\n-/testing\r\n-/project_pg_wooden_house\r\n-/project_home_decor\r\n-/project_sentra_natural_store\r\n-/projectfloristwebsite\r\n-/project_travel\r\n-/floristwebsite\r\n-/typingtoearn\r\n-/ayncollection\r\n-/project_home_decor\r\n-project_pg_wooden_house\r\n-/node_modules\r\n-/public/build\r\n-/public/hot\r\n-/public/storage\r\n-/storage/*.key\r\n-/vendor\r\n-.env\r\n-.env.backup\r\n-.env.production\r\n-.phpunit.result.cache\r\n-Homestead.json\r\n-Homestead.yaml\r\n-auth.json\r\n-npm-debug.log\r\n-yarn-error.log\r\n-/.fleet\r\n-/.idea\r\n-/.vscode\r\n-projek_lusi_final.zip\r\n-projek_lusi.zip\r\n-/projek_lusi_final\r\n-/projek_lusi\r\n-/testing\r\n-/project_pg_wooden_house\r\n-/project_home_decor\r\n-/project_sentra_natural_store\r\n-/projectfloristwebsite\r\n-/project_travel\r\n-/floristwebsite\r\n-/typingtoearn\r\n-/ayncollection\r\n-/project_home_decor\r\n-/project_pg_wooden_house\r\n-/node_modules\r\n-/public/build\r\n-/public/hot\r\n-/public/storage\r\n-/storage/*.key\r\n-/vendor\r\n-.env\r\n-.env.backup\r\n-.env.production\r\n-.phpunit.result.cache\r\n-Homestead.json\r\n-Homestead.yaml\r\n-auth.json\r\n-npm-debug.log\r\n-yarn-error.log\r\n-/.fleet\r\n-/.idea\r\n-/.vscode\r\n-projek_lusi_final.zip\r\n-projek_lusi.zip\r\n-/projek_lusi_final\r\n-/projek_lusi\r\n-/testing\r\n-/project_pg_wooden_house\r\n-/project_home_decor\r\n-/project_sentra_natural_store\r\n-/projectfloristwebsite\r\n-/project_travel\r\n-/floristwebsite\r\n-/typingtoearn\r\n-/ayncollection\r\n-/project_home_decor\r\n-/project_pg_wooden_house\r\n-/projectfloristwebsite\r\n"
                 }
             ],
             "date": 1720764796549,

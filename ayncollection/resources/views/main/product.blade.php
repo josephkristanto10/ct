@@ -16,235 +16,23 @@
     {{-- <link rel="stylesheet" href="{{asset('fa/css/font-awesome.min.css')}}"> --}}
     <link rel="stylesheet" href="{{asset('owl/dist/assets/owl.carousel.css')}}">
     <link rel="stylesheet" href="{{asset('owl/dist/assets/owl.theme.default.min.css')}}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
     <style>
-      #product_list nav svg{
-width:50px !important;
+      nav{
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        background-color:white;
+        position:relative;
       }
-      #product_list nav {
-position:relative !important;
-      }
-      #product_list nav ul {
-margin:auto !important;
-      }
-      .page-link:hover{
-        background-color:#800e13;
-      }
-      .pagination .active{
-        background-color:#800e13 !important;
-      }
-     #product_list .active{
-        background-color:#800e13 !important;
-      }
-      
-
-The easiest solution would be to write some CSS rules that override the default bootstrap ones. Something like this would probably do:
-
-.pagination > li > a,
-.pagination > li > span {
-    color: #800e13; // use your own color here
-}
-
-.pagination > .active > a,
-.pagination > .active > a:focus,
-.pagination > .active > a:hover,
-.pagination > .active > span,
-.pagination > .active > span:focus,
-.pagination > .active > span:hover {
-    background-color: #800e13;
-    border-color: #800e13;
-}
-
-
-
-body {
-
-.modal_card_detail {
-
-width: 100%;
-height: 375px;
-position: fixed;
-background: white;
-margin: 0 auto;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
-transition: all 0.3s;
-}
-.card_detail {
-
-  width: 80%;
-  /* height: 90%; */
-  overflow-y: auto;
-  position: fixed;
-  background: white;
-  margin: 0 auto;
-  text-align: left !important;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
-  transition: all 0.3s;
-  
-  &:hover {
-    
-    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-  
-  }
-  
-  nav {
-    
-    width: 100%;
-    color: #727272;
-    text-transform: uppercase;
-    padding: 20px;
-    font-size: 12px;
-    
-    svg.heart {
-      
-      height: 24px;
-      width: 24px;
-      float: right;
-      margin-top: -3px;
-      transition: all 0.3s ease;
-      cursor: pointer;
-      
-      &:hover {
-        
-        fill: red;
-        
-      }
-      
-    }
-    svg.arrow {
-      
-      float: left;
-      height: 15px;
-      width: 15px;
-      margin-right: 10px;
-      
-    }
-    
-  }
-  
-  .photo {
-    
-    padding: 30px;
-    width: 45%;
-    text-align: center;
-    float: left;
-    
-    img { 
-      max-height: 240px; 
-    }
-    
-  }
-  
-  .description {
-    
-     padding: 15px;
-     float: left;
-     width: 55%;
-     
-     h1 {
-       color: #515151;
-       font-weight: 300;
-       padding-top: 15px;
-       margin: 0;
-       font-size: 30px;
-       font-weight: 300;
-     }
-   
-     h2 {
-      color: #515151;
-      margin: 0;
-      text-transform: uppercase;
-      font-weight: 500;
-     }
-    
-     h4 { 
-       margin: 0;
-       color: #727272;
-       text-transform: uppercase;
-       font-weight: 500;
-       font-size: 12px
-     }
-    
-     p { 
-       font-size: 12px; 
-       line-height: 20px;
-       color: #727272;
-       padding: 20px 0;
-       margin: 0;
-    }
-    
-     button {
-
-       outline: 0;
-       border: 0;
-       background: none;
-       border: 1px solid #d9d9d9;
-       padding: 8px 0px;
-       margin-bottom: 30px;
-       color: #515151;
-       text-transform: uppercase;
-       width: 125px;
-       font-family: inherit;
-       margin-right: 5px;
-       transition: all 0.3s ease;
-       font-weight: 500;
-       
-       &:hover {
-         
-         // background: darken(white, 2%);
-         border: 1px solid #aedaa6;
-         color: #aedaa6;
-         cursor: pointer;
-         
-       }
-
-     }
-    
-  }
-  
-}
-
-}
-
-.card_detail button{
-outline: 0;
-       border: 0;
-       background: none;
-       border: 1px solid #d9d9d9;
-       padding: 8px 0px;
-       margin-bottom: 30px;
-       color: #515151;
-       text-transform: uppercase;
-       width: 125px;
-       font-family: inherit;
-       margin-right: 5px;
-       transition: all 0.3s ease;
-       font-weight: 500;
-       
-       &:hover {
-         
-         // background: darken(white, 2%);
-         border: 1px solid #aedaa6;
-         color: #aedaa6;
-         cursor: pointer;
-         
-       }
-}
-
     </style>
   </head>
   <body style = "height:100%;">
     @include('main.header')
     <div class = "containers">
-    <div style = "width:100%;height:1000px;background-image:url('{{asset('main/images/landing_page.jpg')}}');background-size:cover;">
-    </div>
+    {{-- <div style = "width:100%;height:1000px;background-image:url('{{asset('main/images/landing_page.jpg')}}');background-size:cover;">
+    </div> --}}
     <div class = "main_content" >
-        <div class = "buythelatest_section" style = "text-align:center;padding:20px;font-size: 10px;">
+        <div class = "buythelatest_section" style = "text-align:center;padding:10px;font-size: 10px;">
             <span id = "buythe_style">Pick The</span> <span class = "maroon_color_bold" id = "latest_style">Categories</span>
             {{-- <div class = "row  justify-content-center" style = "text-align:left;border-radius:5px;width:100%;"> --}}
             
@@ -253,7 +41,7 @@ outline: 0;
                   @foreach($category as $c)
                   {{-- <div class = "item"> --}}
                     <div style = "text-align:center" data-id = "{{$c->id}}" onclick = "getproductbycategory(this)"> 
-                        <img src= "{{asset('main/images/category/')}}/{{$c->images_category}}" style = "border-radius:50px;width:70px;height:70px;margin:auto;"><p style = "color:black;">{{$c->name}}</p> 
+                        <img src= "{{asset('main/images/category/')}}/{{$c->images_category}}" style = "border-radius:50px;width:70px;height:70px;margin:auto;"><p id = "tulisan_categories" style = "color:black;font-size:15px;">{{$c->name}}</p> 
                     </div>
                   {{-- </div> --}}
                   @endforeach
@@ -264,6 +52,34 @@ outline: 0;
        
             <div class = "product">
               <span id = "buythe_style">Choose The</span> <span class = "maroon_color_bold" id = "latest_style">Item</span>
+              <div style = "clear:both;"></div>
+              <div style = "margin:auto;height:100%;text-align:center;">
+                <div style = "margin:auto;display:inline-block;margin-top:10px;">
+                  <div id = "kotakformsearch" style = "float:left;margin:auto;display:inline-block;text-align:center;">
+                    <form action="" id = "formsearch" role="search" style = "margin:auto;">
+                      <input type="search" placeholder="type keyword here" id = "search_keyword" required>
+                    
+                      <i class="fa fa-search" id = "search_item"></i>
+                      <p style = "margin-top:5px;margin-right:35px;font-size:13px;">Hover & Type to Search</p>
+                  
+                      {{-- <button onclick="clearInput()">Clear</button> --}}
+                    </form>
+                  </div>
+                  <div id = "garis" style = "float:left;height:40px;width:0px;border : 1px solid grey;margin-left:10px;margin-top:5px;">
+                  </div>
+                  <div id = "choose_category_toggle" style = "float:left;padding-top:15px;padding-left:15px;display:inline-block;text-align:center;">
+                    {{-- <div style = "height:50px;width:0px;border : 1px solid black;display:inline-block;"></div> --}}
+                    <span id = "all_click" onclick = "choosethis(this)" class = "choose_category_all_new_arival choose_active"  style = "border-radius:50px;color:#131312;font-size:15px;padding:12px;padding-left:50px;padding-right:50px;margin-top:15px;box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;margin-left:10px;cursor:pointer;">All</span>
+                    <span id = "new_arival_click" onclick = "choosethis(this)" class = "choose_category_all_new_arival" style = "border-radius:50px;font-size:17px;padding:10px;padding-left:30px;padding-right:30px;margin-top:15px;box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;margin-left:10px;cursor:pointer;">New Arrivals</span>
+                  </div>
+                </div>
+             
+            </div>
+              <div style = "clear:both;"></div>
+           
+           
+        
+            
                 <div class = "row  justify-content-center" style = "text-align:left;margin-bottom:10px;margin-top:10px;margin-top:40px;" id = "product_list">
                     @include('main.product_list')
                 </div>
@@ -338,7 +154,9 @@ outline: 0;
 <script src="{{asset('owl/dist/owl.carousel.min.js')}}"></script>
 
 <script>
+  
    $(document).ready(function(){
+
     $('#myowl').owlCarousel({
             loop: false,
             nav: false,
@@ -347,77 +165,66 @@ outline: 0;
             margin: 1,
             responsive:{
                 0:{
-                    items:1,
+                    items:4,
                     rows:1
                 },
                 768:{
-                    items:5,
+                    items:7,
                     rows:1
                 }
             }
-            // responsive: {
-            //     0: {
-            //         items: 1,
-            //         rows:1,
-            //     },
-            //     460: {
-            //         items: 1,
-            //         rows:1,
-            //     },
-            //     576: {
-            //         items: 2,
-            //         rows:1,
-            //     },
-            //     992: {
-            //         items: 3,
-            //     }
-            // }
+      
         });
    
 });
+
+function choosethis(myobj){
+  $("#choose_category_toggle span").removeClass("choose_active");
+  $(myobj).addClass("choose_active");
+}
+
 var data_pilihan_category = 0;
 function getproductbycategory(myobj){
     var id_category = $(myobj).attr("data-id");
     data_pilihan_category = id_category;
-    fetch_data(0);
-    // $.ajax({
-    //   type: "get",
-    //   url: "{{url('/getproductbycategory')}}",
-    //   data: {"id_category" : id_category},
-    //   dataType: "json",
-    //   success: function (response) {
+    var keyword_cari = $("#search_keyword").val();
+    fetch_data(0, keyword_cari);
 
-    //     $("#modal_title_product").text(response.output[0].name);
-    //     $("#modal_code_product").text("#"+response.output[0].code);
-    //     var harga =  response.output[0].price;
-    //     const hargaakhir = harga.toLocaleString();
-    //     $("#modal_price_product").text("Rp "+hargaakhir);
-    //     $("#modal_desc_product").text(response.output[0].descriptions);
-
-    //     var output_gambar = "{{asset('main/images/product')}}/"+response.output[0].images;
-    //     $("#gambar_detail_product").attr("src", output_gambar);
-
-
-
-    //   }
-    // });
 
 }
+
+$("#search_item").click(function (e) { 
+  e.preventDefault();
+  var keyword_cari = $("#search_keyword").val();
+  fetch_data(0, keyword_cari);
+});
+$("#all_click").click(function (e) { 
+  e.preventDefault();
+  $("#search_keyword").val("");
+  var keyword_cari = "";
+  fetch_data(0, keyword_cari);
+});
+$("#new_arival_click").click(function (e) { 
+  e.preventDefault();
+  $("#search_keyword").val("");
+  var keyword_cari = "";
+  fetch_data(-1, keyword_cari);
+});
+
 
 $(document).on('click', '.mylinks a', function(event){
  
  event.preventDefault(); 
  var page = $(this).attr('href').split('page=')[1];
 
- fetch_data(page);
+ fetch_data(page, "");
 });
 
-function fetch_data(page)
+function fetch_data(page, keywords)
 {
-
  $.ajax({
   url:"/pagecategory/fetch_data_index?page="+page,
-  data:{"category" : data_pilihan_category},
+  data:{"category" : data_pilihan_category, "keyword" : keywords},
   success:function(data)
   {
    $('#product_list').html(data);
@@ -427,40 +234,50 @@ function fetch_data(page)
 
 function openmodal(myobj){
 
-var myid_product =  $(myobj).attr("data-id");
-var kode_product =  $(myobj).attr("data-kode");
-$("#tujuan_chat_admin").attr("target", "_blank");
+      var myid_product =  $(myobj).attr("data-id");
+      var kode_product =  $(myobj).attr("data-kode");
+      $("#tujuan_chat_admin").attr("target", "_blank");
 
-$("#tujuan_chat_admin").attr("href", "https://wa.me/+6285763794376?text=hai%20ka%2C%20saya%20mau%20tanya%20tentang%20product%20dengan%20code%20"+kode_product+"%20ini.%20Saya%20taunya%20ini%20dari%20website.");
-
-
-$(".modal_card_detail").attr("style","width:100%;height:1000px;background-color:#000000;opacity:0.5;z-index:5;position:fixed;display:block;");
-$(".card_detail").attr("style", " z-index:6;display:block; animation: fadeIns 1s;");
+      $("#tujuan_chat_admin").attr("href", "https://wa.me/+6285763794376?text=hai%20ka%2C%20saya%20mau%20tanya%20tentang%20product%20dengan%20code%20"+kode_product+"%20ini.%20Saya%20taunya%20ini%20dari%20website.");
 
 
-$.ajax({
-type: "get",
-url: "{{url('/detailproduct')}}",
-data: {"id_product" : myid_product},
-dataType: "json",
-success: function (response) {
-
-  $("#modal_title_product").text(response.output[0].name);
-  $("#modal_code_product").text("#"+response.output[0].code);
-  var harga =  response.output[0].price;
-  const hargaakhir = harga.toLocaleString();
-  $("#modal_price_product").text("Rp "+hargaakhir);
-  $("#modal_desc_product").text(response.output[0].descriptions);
-
-  var output_gambar = "{{asset('main/images/product')}}/"+response.output[0].images;
-  $("#gambar_detail_product").attr("src", output_gambar);
+      $(".modal_card_detail").attr("style","width:100%;height:1000px;background-color:#000000;opacity:0.5;z-index:5;position:fixed;display:block;");
+      $(".card_detail").attr("style", " z-index:6;display:block; animation: fadeIns 1s;");
 
 
+      $.ajax({
+      type: "get",
+      url: "{{url('/detailproduct')}}",
+      data: {"id_product" : myid_product},
+      dataType: "json",
+      success: function (response) {
 
-}
-});
+        $("#modal_title_product").text(response.output[0].name);
+        $("#modal_code_product").text("#"+response.output[0].code);
+        var harga =  response.output[0].price;
+        const hargaakhir = harga.toLocaleString();
+        $("#modal_price_product").text("Rp "+hargaakhir);
+        $("#modal_desc_product").text(response.output[0].descriptions);
 
-}
+        var output_gambar = "{{asset('main/images/product')}}/"+response.output[0].images;
+        $("#gambar_detail_product").attr("src", output_gambar);
+
+
+
+      }
+      });
+
+  
+    }
+document.addEventListener("keypress", function(event) {
+  // If the user presses the "Enter" key on the keyboard
+  if (event.key === "Enter") {
+    // Cancel the default action, if needed
+    event.preventDefault();
+    // Trigger the button element with a click
+    $("#search_item").click();
+  }
+}); 
 $(".modal_card_detail").on("click",function(){
 $(".modal_card_detail").attr("style","width:100%;height:1000px;background-color:#000000;opacity:0.5;z-index:5;position:fixed;display:none;");
 $(".card_detail").attr("style", "opacity:1 !important; z-index:6;display:none;");

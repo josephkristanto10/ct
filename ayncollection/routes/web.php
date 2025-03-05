@@ -33,6 +33,10 @@ Route::group(['prefix'=>'adminoffice','as'=>'Admin.'], function(){
     Route::POST('login', [AdminController::class,"checklogin"]);
     Route::get('logout', [AdminController::class,"logout"]);
 
+    Route::get('best_seller', [AdminController::class,"index_best_seller"]);
+    Route::get('best_seller/getbestseller', [AdminController::class,"gettabelbestseller"]);
+    Route::POST('best_seller/editbestseller', [AdminController::class,"editbestseller"]);
+
     Route::get('product', [AdminController::class,"index_product"]);
     Route::get('product/getlistproduct', [AdminController::class,"gettabelproduct"]);
     Route::get('product/getdetailproduct', [AdminController::class,"getdetailproduct"]);
@@ -55,4 +59,9 @@ Route::group(['prefix'=>'adminoffice','as'=>'Admin.'], function(){
     Route::POST('category/changestatuscategory',[CategoryController::class, "changestatuscategory"]);
     Route::POST('category/editcategory',[CategoryController::class, "editcategory"]);    
     Route::POST('category/tambahcategory', [CategoryController::class,"tambahcategory"]);
+
+    Route::get('homesetting', [AdminController::class,"index_home_setting"]);
+    Route::POST('homesetting/updatebackground', [AdminController::class,"update_image_background"]);
+    Route::POST('homesetting/updatetext', [AdminController::class,"update_text"]);
+    
 });

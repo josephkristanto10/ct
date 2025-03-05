@@ -382,7 +382,8 @@ li::before{
 			<div id="header-wrap" >
 			
 				<span style = "float:left;position: relative;left:50px;" id = "logo_responsive"><a href = "{{url('/')}}"><img src = "{{ asset('css/images/logo_amp.png') }}" style = "width:100px; height:100px;"/> </a><span style = "font-weight:600;color:#4A4A4A;font-size:20px;"><a href = "{{url('/')}}" style = "color:#4A4A4A !important;">PT. Aneka Mesin Prima</a></span></span>
-				<span style = "float:right;position: relative;right:50px;" id = "button_responsive"><a href = "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20"><button id = "beliforklift" class = "btn btn-success" style = "box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;border-radius:25px;border:0px;background-color: #ff5A00 ; font-family: Open Sans,system-ui; font-weight:600; letter-spacing:1px ;color:white;margin-top:30px;font-size:15px;"> <i class="bi bi-cart" style = "color:white !important;"></i> &nbsp;Sewa / Beli Forklift Sekarang</button></a></span>
+				<span style = "float:right;position: relative;right:50px;" id = "button_responsive"><a href = "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20"><button id = "beliforklift" class = "btn btn-success" style = "box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;border-radius:25px;border:0px;background-color: #ff5A00 ; font-family: Open Sans,system-ui; font-weight:600; letter-spacing:1px ;color:white;margin-top:30px;font-size:15px;"> <i class="bi bi-cart" style = "color:white !important;"></i> &nbsp;Sewa Harian Forklift Sekarang
+				</button></a></span>
 				<div id="primary-menu-trigger" style = "float:right;">
 					<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
 				</div>
@@ -492,8 +493,9 @@ li::before{
 					<div class="container clearfix">
 						<div class="row align-items-center" id = "section_hubungi_kami">
 							<div class="col-12 col-lg">
-								<h3 style="letter-spacing: 2px;">Sewa atau Beli Forklift Berkualitas Di Tempat Kami</h3>
-								<span>Kami menjanjikan forklift berkualitas dan siap kirim ke seluruh <b>wilayah Indonesia</b></span>
+								<h3 style="letter-spacing: 2px;">Sewa Harian Forklift Berkualitas di Tempat Kami
+								</h3>
+								<span>Kami menjanjikan forklift berkualitas dan siap kirim ke seluruh area <b>Surabaya, Gresik, Sidoarjo dan sekitarnya</b></span>
 							</div>
 							<div class="col-12 col-lg-auto mt-4 mt-lg-0" id = "button_hubungi_kami_responsive">
 								<a href="https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20"  class="button button-large button-circle button-black m-0" style = "background-color:#ff5A00;">Hubungi Kami</a>
@@ -508,7 +510,8 @@ li::before{
 						
 						<div class="col-sm-12 col-lg-12">
 							<p style = "text-align:justify;">
-								<b style = "color:#4A4A4A;">PT. Aneka Mesin Prima</b> mulai beroperasi pada tahun 2023, perusahaan kami terletak di Jalan Kedinding Lor no 88-90, Surabaya, Jawa Timur. PT. Aneka Mesin Prima merupakan perusahaan yang bergerak di bidang sewa dan jual- beli Forklift. Forklift yang disediakan oleh PT. Aneka Mesin Prima terbilang cukup beragam, ada Forklift Diesel dan Forklift Elektrik dengan kapasitas Ton yang berbeda-beda. Selain itu, PT. Aneka Mesin Prima juga menyediakan jasa perbaikan Forklift milik konsumen yang ingin Forkliftnya diperbaiki.
+								<b style = "color:#4A4A4A;">PT. Aneka Mesin Prima</b> mulai beroperasi pada tahun 2023, perusahaan kami terletak di Jalan Kedinding Lor no 88-90, Surabaya, Jawa Timur. PT. Aneka Mesin Prima merupakan perusahaan yang bergerak di bidang sewa harian, sewa bulanan, dan jual-beli Forklift.
+
 							</p>
 							
 						</div>
@@ -539,8 +542,9 @@ li::before{
 									<img class="rounded" src="{{ asset('css/images/services/1.jpg') }}" style = "width:100%;height:250px;" alt="Effective Planning">
 								</div>
 								<div class="fbox-content px-0">
-									<h3 style = "font-size:20px;">Bergaransi <span class="subtitle"></span></h3>
-									<p  style = "text-align:justify;">Forklift kami sudah dicek terlebih dahulu perihal kualitas, Selain itu kami memberikan <b style = "color:#4A4A4A;">garansi</b> untuk pembelian Forklift dari kami selama 6 Bulan.</p>
+									<h3 style = "font-size:20px;">Operator <span class="subtitle"></span></h3>
+									<p  style = "text-align:justify;">Operator forklift kami adalah tenaga profesional yang terlatih dan berpengalaman, memastikan setiap proses pemindahan barang berjalan dengan aman, efisien, dan tepat waktu.
+									</p>
 								</div>
 							</div>
 						</div>
@@ -842,7 +846,7 @@ li::before{
 						
 				  </div>
 				<div class = "container clearfix mt-4" style = "text-align:center !important;width:100% !important;" >
-					<p style = "text-align:center;width:100%;font-size:19px;">Forklift yang kami miliki terdiri dari Forklift Diesel dan Elektrik, Forklift-forklift tersebut memiliki berbagai macam kapasitas mulai dari 1,5 Ton sampai dengan 10 Ton.</p>
+					<p style = "text-align:center;width:100%;font-size:19px;"></p>
 				</div>
 				<div id="portfolio" class="portfolio row grid-container no-gutters">
 

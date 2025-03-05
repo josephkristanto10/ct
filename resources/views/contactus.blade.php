@@ -438,7 +438,7 @@ li::before{
 
 		<div class="container clearfix mt-2" style = "width:100%;" id = "harus_preview_image">
 		<h3 style = "font-size:40px;text-align:center;">Hubungi Kami</h3>
-		<p>Butuh bantuan untuk mencari forklift berkualitas mulai dari kapasitas 1,5 ton sampai 10 ton? yuk langsung saja datangi offline store kami yang berletak di Kota Surabaya pada <b>jln Kedinding Lor no 88 - 90</b> Atau bisa menekan kotak google maps yang ada dibawah halaman. Selain itu, kamu juga bisa hubungi nomor whatsapp admin yang tertera. Terima Kasih.</p>
+		<p>Butuh bantuan untuk mencari forklift berkualitas mulai dari kapasitas 1,5 ton sampai 10 ton? yuk langsung saja datangi offline store kami yang berletak di Kota Surabaya pada <b>jln Kedinding Lor no 88 - 90</b> Atau bisa menekan kotak google maps yang ada dibawah halaman. Selain itu, kamu juga bisa hubungi nomor whatsapp admin 0853-9335-7511 atau bisa klik logo whatsapp yang tertera. Terima Kasih.</p>
 
 		<br>
 		<h3 style = "font-size:40px;text-align:center;">Jam Operasional Kami</h3>

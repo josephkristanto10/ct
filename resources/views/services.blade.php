@@ -446,11 +446,11 @@ li::before{
 		<h3 style = "font-size:40px;text-align:center;">Produk Kami</h3>
 		<ul style = "margin:auto;width:100%;">
 			<li>
-				<span style = "position: absolute;z-index:100;background-color:#ff5A00;border-radius:40px;color:white;padding:5px;margin-top:10px;margin-left:10px;font-weight:600;">1,5 Ton</span>
+				<span style = "position: absolute;z-index:100;background-color:#ff5A00;border-radius:40px;color:white;padding:5px;margin-top:10px;margin-left:10px;font-weight:600;">New</span>
 				<a href="">
 					<figure>
 						
-						<img src="{{asset('css/images/services/Services_1.jpg')}}" alt='Volcano and lava field against a stormy sky'>
+						<img src="{{asset('css/images/services/baru_1.jpg')}}" alt='Volcano and lava field against a stormy sky'>
 						<a href = "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%201,5%20Ton"><figcaption><img src = "{{asset('css/images/logo_wa.png')}}" style = "width:50px;height:50px;" /> <span style = "background-color:#02b326;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin</span> </figcaption></a>
 					</figure>
 				</a>
@@ -465,15 +465,15 @@ li::before{
 				</a>
 			</li> --}}
 			<li>
-				<span style = "position: absolute;z-index:100;background-color:#ff5A00;border-radius:40px;color:white;padding:5px;margin-top:10px;margin-left:10px;font-weight:600;">2,5 Ton</span>
+				<span style = "position: absolute;z-index:100;background-color:#ff5A00;border-radius:40px;color:white;padding:5px;margin-top:10px;margin-left:10px;font-weight:600;">New</span>
 				<a href="">
 					<figure>
-						<img src="{{asset('css/images/services/2setengahton.jpg')}}" alt='Volcano and lava field against a stormy sky'>
+						<img src="{{asset('css/images/services/baru_2.jpg')}}" alt='Volcano and lava field against a stormy sky'>
 						<a href= "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%202,5%20Ton"><figcaption><img src = "{{asset('css/images/logo_wa.png')}}" style = "width:50px;height:50px;" > <span style = "background-color:#02b326;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin</span> </figcaption> </a>
 						</figure>
 				</a>
 			</li>
-			<li>
+			{{-- <li>
 				<span style = "position: absolute;z-index:100;background-color:#ff5A00;border-radius:40px;color:white;padding:5px;margin-top:10px;margin-left:10px;font-weight:600;">3 Ton</span>
 
 				<a href="">
@@ -512,7 +512,7 @@ li::before{
 						<a href= "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%207%20Ton">	<figcaption><img src = "{{asset('css/images/logo_wa.png')}}" style = "width:50px;height:50px;" > <span style = "background-color:#02b326;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin</span> </figcaption> </a>
 						</figure>
 				</a>
-			</li>
+			</li> --}}
 		
 			
 		</ul>
