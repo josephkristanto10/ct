@@ -469,7 +469,7 @@ li::before{
 				<a href="">
 					<figure>
 						<img src="{{asset('css/images/services/baru_2.jpg')}}" alt='Volcano and lava field against a stormy sky'>
-						<a href= "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%202,5%20Ton"><figcaption><img src = "{{asset('css/images/logo_wa.png')}}" style = "width:50px;height:50px;" > <span style = "background-color:#02b326;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin</span> </figcaption> </a>
+						<a href= "https://wa.me/6285393357511?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%202,5%20Ton"><figcaption><img src = "{{asset('css/images/logo_wa.png')}}" style = "width:50px;height:50px;" > <span style = "background-color:#02b326;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin</span> </figcaption> </a>
 						</figure>
 				</a>
 			</li>
@@ -517,7 +517,7 @@ li::before{
 			
 		</ul>
 		<br><br>
-			<div style = "text-align:center;padding:20px;background-color:#ff5A00;color:white;border-radius:10px;width:100%;">Masih banyak forklift dengan kapasitas selain diatas. yuk hubungi Admin kami.<a  href= "https://wa.me/6281258020841?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%20lainnya%20selain%20di%20Website" style = ""> <div id = "penyangga_tanya_admin" style = "display:none;"></div> <span style = "border:1px solid white; background-color:transparent;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin &nbsp;<img src = "{{asset('css/images/logo_wa.png')}}" style = "width:28px;height:27px;" ></span> </a></div>
+			<div style = "text-align:center;padding:20px;background-color:#ff5A00;color:white;border-radius:10px;width:100%;">Masih banyak forklift dengan kapasitas selain diatas. yuk hubungi Admin kami.<a  href= "https://wa.me/6285393357511?text=Halo,%20PT.Aneka%20Mesin%20Prima,%20Saya%20ingin%20bertanya%20tentang%20forkliftnya%20untuk%20ukuran%20lainnya%20selain%20di%20Website" style = ""> <div id = "penyangga_tanya_admin" style = "display:none;"></div> <span style = "border:1px solid white; background-color:transparent;color:white;font-weight:bold;border-radius:20px;padding:10px;margin-left:10px;">Tanya Admin &nbsp;<img src = "{{asset('css/images/logo_wa.png')}}" style = "width:28px;height:27px;" ></span> </a></div>
 
 
 		</div>
