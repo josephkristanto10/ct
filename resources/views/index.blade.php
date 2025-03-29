@@ -33,6 +33,26 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
+
+  <!-- Google tag (gtag.js) event - delayed navigation helper -->
+<script>
+	// Helper function to delay opening a URL until a gtag event is sent.
+	// Call it in response to an action that should navigate to a URL.
+	function gtagSendEvent(url) {
+	  var callback = function () {
+		if (typeof url === 'string') {
+		  window.location = url;
+		}
+	  };
+	  gtag('event', 'ads_conversion_Meminta_penawaran_harga_1', {
+		'event_callback': callback,
+		'event_timeout': 2000,
+		// <event_parameters>
+	  });
+	  return false;
+	}
+  </script>
+  
 	<!-- Document Title
 	============================================= -->
 
